@@ -1,0 +1,47 @@
+.shortcol {
+  width: 10vw;
+  margin:0;padding:0;border:0;height:0;
+}
+
+.longcol {
+  width: 40vw;
+  margin:0;padding:0;border:0;height:0;
+}
+
+.extralongcol {
+  width: 45vw;
+  margin:0;padding:0;border:0;height:0;
+}
+
+.superlongcol {
+  width: 90vw;
+  margin:0;padding:0;border:0;height:0;
+}
+
+.columnBorder {
+  border-right: 0.1em solid #BEEBFF;
+}
+
+.alternate {
+  background-color: #FFFBE6;
+}
+
+.table {
+  table-layout: fixed;
+  word-wrap: break-word;
+  border-bottom: 0.1em solid lightgrey;
+}
+
+.nopadding {
+  margin:0;padding:0;border:0;
+}
+
+.subText {
+  font-size:0.85em;
+  color:grey;
+}
+
+.tabletitle {
+  text-align: center;
+  font-family: tarrget;
+}

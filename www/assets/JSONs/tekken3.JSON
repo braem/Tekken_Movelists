@@ -1,0 +1,3519 @@
+{
+	"game": "tekken3",
+	"movelists": [
+		{
+			"id": "anna",
+			"name": "Anna",
+			"fullname": "Anna Williams",
+			"sex": "Female",
+			"origin": "Ireland",
+			"fightingStyle": "Koppo Assassination Arts based in Aikido",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Arm Grab Flip","Front","30","1",""],
+						["2+4","Lifting Toss","Front","30","2",""],
+						["u/f+1+2","Neck Throw","Front","40","1+2",""],
+						["d/f,d/f+1","Embracing Elbow Strike","Front","50","1+2",""],
+						["u/f+3","Bone Cutter","Front","13,20","None","#1"],
+						["(1+3_2+4)","Torso Splitter","Left","40","1",""],
+						["(1+3_2+4)","Serpentine Arm Snap","Right","38","2",""],
+						["(1+3_2+4)","Triangle Hold","Back","60","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Multi Throw Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["qcf+1+2","Palm Strike","Front","15","2",""],
+						[" = 3,4,3,1+2"," = Arm Bar","","30","1+2",""],
+						[" = 1,3,2,1"," = Standing Reverse Arm Lock","","20","1",""],
+						["   = 2,1,3,4,1+2","   = Falling Reverse Arm Lock","","25","2","#1"],
+						["   = 3,1,4,1+2,1+2","   = Rear Falcon Wing Squeeze","","25","1+2","#1"],
+						["   = 2,3,1+2,3+4,1+2","   = Gatelatch Toss","","30","1","#1"],
+						[" = 1+3,4,1+2"," = Arm Sprain","","30","2",""],
+						["   = 4,3,4,3+4,1+2","   = Inverted Crucifix","","32","1+2",""],
+						["   = 1+2,4,3,1+2,1+2,1+2","   = Rear Cross Lock","","32","1",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["(d/f+1,2)_(1,2)_(BT 1_2,2)","Double Punch","","10,15_4,10_15,10","mh_hh",""],
+						[" = 4"," = Bermuda Triangle","","15","h",""],
+						[" = 1,4,2 [~U_~D]"," = Snake [SS]","","6,15,12","hhh","#1"],
+						["   = 3","   = High Kick","","17","h","GB"],
+						["   = u/f+3","   = Bone Cutter","","13,20","h",""],
+						["   = 4","   = Spin Trip","","21","L",""],
+						[" = 1,(b_d/b_d)+4"," = Jab Rush - Low Kick","","6,8","hl","RC"],
+						["1,4","PDK Combo","","4,8","hl","RC"],
+						["(FC_d)+1,N+4","Low Jab - Rising Kick","","5,10","sm",""],
+						["b+1,1,1","Cross Cut Saw","","10,8,12","hhm",""],
+						["FC,f+1","Cat Thrust","","27","m","JG CF"],
+						["WS+1+2","Scarlet Bomb","","20","m",""],
+						["f,f+1+2","Delayed Scarlet Bomb","","25","m",""],
+						["f+1+2","Offensive Push","","0","!","GB"],
+						["SS+1+2","Bloody Chaos","","8,21","mm","JG"],
+						["2,3","Jab - High Kick","","10,20","hh",""],
+						["2,d+3","Jab - Low Kick","","10,10","hL","RC"],
+						["2,4","Jab - Roundhouse","","10,15","hh",""],
+						["2,1,4","Twin Jab - Low Kick","","12,6,8","hhl","RC"],
+						["(FC_d)+2,N+4","Low Jab - Toe Kick","","8_10,8","sm",""],
+						["FC,f+2","Scarlet Windmill","","22","m","GB SLDc #6"],
+						["FC,d/f+2","Scarlet Sweep","","18","l","JG"],
+						["f,f+2","Executioner","","21","h","GB"],
+						["(WS_qcf)+2","Rising Palm","","15","m","JGc"],
+						["b+2,N+2","Double Slaps","","15,18","hh",""],
+						["b+2,B+2","Double Slaps","","15,18","hh","OS"],
+						["b+2,f+2","Double Slaps","","15,18","hh","OB"],
+						["b+2,U+2","Double Slaps","","15,18","hh","KND"],
+						["b+2,D+2","Double Slaps","","15,18","hh","KS OS"],
+						["SS+2","Chaos Tail","","12","l","JGc RC KS"],
+						["3,4","Head Ringer","","25,15","hh",""],
+						["(FC_d)+3,2","Low Spin Kick - Upper","","12,10","Lm","JG"],
+						["(FC_d)+3,4","Low Spin Kick - High Kick","","12,15","Lh",""],
+						["d/f+3,4","Mid Head Ringer","","10,15","mh",""],
+						["d/f+3,1","Assault","","10,10","mh",""],
+						[" = 4<2 [~U_~D]"," = Snake [SS]","","15,12","hh","#1"],
+						["   = 3","   = High Kick","","17","h","GB"],
+						["   = u/f+3","   = Bone Cutter","","13,20","h",""],
+						["   = 4","   = Spin Trip","","21","L",""],
+						[" = 2"," = High Jab","","6","h","#8"],
+						["d/f+3,2","Creeping Snake","","10,12","mh",""],
+						[" = 1,4"," = Biting Snake","","6,8","hl","RC"],
+						[" = 3"," = High Kick","","20","h",""],
+						[" = d+3"," = Low Kick","","10","L","RC"],
+						[" = 4"," = Roundhouse","","15","h",""],
+						["d/f+3,3,3","Spike Combo","","10,6,8","mhh",""],
+						[" = 1"," = Assault","","10","h",""],
+						["   = 2","   = High Jab","","6","h",""],
+						[" = 4"," = Head Ringer","","15","h",""],
+						["(d_d/f)+3+4","Twisted Mind","","10","L",""],
+						["u/f+4,3,4 [~U_~D]","Can Opener [SS]","","20,10,14","hlh","#1 #4"],
+						["(FC_d)+4,1 [~U_~D]","Shin Kick - Spin Punch [SS]","","7_10,10","sh","#1"],
+						["b+4","Cat Stance","","n/a","n/a","#2"],
+						[" = 4"," = Cat Kick","","21","m","SH GB"],
+						["4,3","Scarlet Attack","","15,15","hL",""],
+						["f,f+4","Falling Heel","","20","M","GB"],
+						["(U/B_U_U/F)+4","Flip Kick","","21","m","JG #5"],
+						["FC,(U/B_U_U/F)+4","Rainbow Kick","","28","m",""],
+						["d/f+4","Front Kick","","15","m",""],
+						["1+2+3","Mystic Booty Taunt","","0","m","FS #7"],
+						["b+(1+3_2+4)","High & Mid Attack Reversal","","Varies","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d/b+1+2","Hunting Swan","","95","!",""],
+						[" = u,u"," = Cancel","","-","-",""],
+						["d+1+2","Bloody Scissors","","50","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["1,2,1,2,3,3,2,1,2,4","10","4,10,6,4,6,6,6,6,6,30","hhhhhlhhhh"],
+						["d/f+1,2,1,2,3,3,2,1,2,4","10","10,15,6,4,6,6,6,6,6,30","mhhhhlhhhh"],
+						["(BT 1_2),2,1,2,3,3,2,1,2,4","10","15,10,6,4,6,6,6,6,6,30","hhhhhlhhhh"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "bryan",
+			"name": "Bryan",
+			"fullname": "Bryan Fury",
+			"sex": "Male",
+			"origin": "USA",
+			"fightingStyle": "Kickboxing",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Full Neck Swing","Front","30","1",""],
+						["2+4","Gravity Brain Buster","Front","30","2",""],
+						["FC,d/f,d,d/f+1+2","Chains of Misery","Front","10,8,27","1+2",""],
+						["(1+3_2+4)","Gravity Blow","Left","40","1",""],
+						["(1+3_2+4)","Knee Blast","Right","40","2",""],
+						["(1+3_2+4)","Hummer Neck Wringer","Back","60","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d/f+1,2","Double Body Blow","","10,16","mm",""],
+						["D/F+1<1<1<1,2","Vulcan Cannon - Vulcan Punch","","10,15,12,11,16","mmmmm","#2"],
+						["SS+1","Headhunter","","33","h",""],
+						["SS+1~2","Cheap Trick","","28","m","FSc"],
+						["(FC_b_d_N)+1+2","Hammer Driver","","14,21","mm","KS SLDc"],
+						["f+1+2","Side Step Elbow","","26","h",""],
+						["1,2","Double Punch","","6,8","hh",""],
+						[" = 1,2"," = Bruce Rush","","11,14","mm",""],
+						[" = 1,4"," = Bruce Low Rush","","11,12","ml",""],
+						[" = 3"," = Northern Lights","","13","l",""],
+						["1~4","Punch Kick Cross","","6,15","hh",""],
+						[" = <2<1<2"," = Lair's Dance","","21,21,21","hhh","CS #3"],
+						[" = <2<1~(u_d)"," = Side Step Lair's Dance","","21","h","CSc #1"],
+						[" = <2<1<4"," = Cremation","","21,21,26","hhm","CS #3"],
+						[" = <2<4"," = Atomic Dance","","21,26","hm","CSc"],
+						[" = 3,3"," = Southern Cross","","17,16","mh",""],
+						["WS+1+2","Short Upper","","12","m",""],
+						["(WS_qcf)+1","Snake Upper","","18","m","JG"],
+						["f,f+2","Mach Breaker","","30","h",""],
+						["SS+2","Shell Shock","","26","h","OS"],
+						["d/f+2","Vulcan Punch","","18","m",""],
+						["b+2<1<2","Doom Knuckles - Mach Punch","","21,21,21","hhh","CS #3"],
+						["b+2<1~(u_d)","Doom Knuckles - Side Step","","21","h","CSc #1"],
+						["b+2<1<4","Doom Knuckles - Wolf Bite","","21,21,26","hhm","CS #3"],
+						["b+2<4","Doom Knuckle - Wolf Bite","","21,26","hm","CSc"],
+						["b+2~f+1","Fake Out Doom Knuckle","","21","h","CSc #5"],
+						[" = <2"," = Mach Punch","","21","h",""],
+						[" = (u_d)"," = Side Step","","-","-",""],
+						[" = <4"," = Wolf Bite","","23","m",""],
+						["qcb","Sway","","-","-",""],
+						[" = N+2"," = Chin Smash","","21","h","JG"],
+						["(WS_qcf)+2","Gut Punch","","18","m",""],
+						[" = (~f_~b)+2"," = Fisherman's Slam","","21","Throw","JG #4"],
+						["f,f+3","Slash Kick","","36","m",""],
+						["3,2,1,2","Gatling Rush","","18,11,10,14","mmmm",""],
+						["3,2,1,4","Bruce Special","","18,11,10,12","mmml",""],
+						["3,3","Quick Spin Kicks","","18,16","mh",""],
+						["(u_u/f)+3","Rolling Driver","","25","h",""],
+						["(WR_f,f,f)+3","Leaping Slash Kick","","30","m","GB"],
+						["d/f+3","Snake Edge","","17","L","JG RC"],
+						["(WS_qcf)+3","Hammer Knee","","22","m","FSc"],
+						[" = 4"," = Twin Hammer Knee","","16","m",""],
+						["b+3","Front Kick","","20","h",""],
+						[" = 2,1,2"," = Bruce Rush","","12,11,14","hmm",""],
+						[" = 2,1,4"," = Run for Cover","","12,11,12","hml",""],
+						[" = 4"," = Knee","","12","m",""],
+						["d+3+4","Thin Low Kick","","15","l",""],
+						["WS+3+4","Spin Kick","","28","h",""],
+						["b+4","Quick Knee","","17","m",""],
+						["(u_u/f)+4","Orbital Heel","","21","m","JG"],
+						["d/f+4","Power Axe","","26","m",""],
+						["f+4,3,4","Running Blind","","18,14,18","hmh",""],
+						["b,b+4","Orbital Flip Drop","","25","h","GB"],
+						["(d/b_d)+(1+3_2+4)","Low Parry","","-","-",""],
+						["1+3+4","Taunt","","0","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+1+4","Meteor Smash","","60","!",""],
+						["f+1+4","Meteor Blow","","21","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["b+3,4,1,2,1,4,2,1,4,2","10","20,12,5,7,3,8,5,5,10,21","hmmmhhhhmh"],
+						["b+3,4,1,2,1,4,2,4","8","20,12,5,7,3,8,5,26","hmmmhhhm"],
+						["b+3,4,1,2,1,4,3,3","8","20,12,5,7,3,8,17,16","hmmmhhmh"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "drb",
+			"name": "Dr. Bosconovitch",
+			"fullname": "Dr. Bosconovitch",
+			"sex": "Male",
+			"origin": "Russia",
+			"fightingStyle": "Panic Fighting",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["f,f+4","Dr. Frankensteiner","Front","15,18","None","FB #1"],
+						["KND (f,f_b,b), b+1+2","Stone Head","Front","33","1+2","FB"],
+						["SLD (f_b), b+1+2","Stone Head","Front","33","1+2","FB"],
+						["FCD b, b,b+1+2","Stone Head","Front","33","1+2","FB"],
+						["1+2 (Parry) 3+4","Rolling Powerbomb","Crouch","37","None","FB"],
+						["1+2 (Parry) 1+2","Irish Whip","Front","10","1+2","FB #2"],
+						["BDS 1+2","Arm Takedown","Left","45","1","FB"],
+						["BDS 1+2","Trip Up","Right","40","2","FB"],
+						["BDS 1+2","Atomic Drop","Back","60","None","FB"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Multi Throw Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["BDS 1+2","Irish Whip","Front","10","1+2","FB"],
+						[" = 2,2,1+2"," = Elbow Drop","","21","-","FB"],
+						["   = 1+4","   = King Step","","-","-",""],
+						["     = 2,1,3,4","     = Running Bulldog","","38","-","FB"],
+						["   = 1+2","   = Cartwheel","","0","-","SLD"],
+						["     = 3+4","     = Taunt Doc - Panik Charge","","0","-","#1"],
+						["       = 1+2","       = Shoulder Ram","","50","-","FB"],
+						["   = 3+4","   = Running Head Dive","","10","-","FB"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","One Two Punch","","4,10","mm",""],
+						["u/f+1","Thunder Old Fist","EFB","25","m","#1 JG"],
+						[" = d"," = EFB Cancel - Low Parry","FB","-","-",""],
+						["f,f+1","Panik Jab","FB","13","m","MSc #2"],
+						["f,f+1<4<3<2<1","Jam Combo","EFB","13,8,10,12,13","mLLmm","FS #3"],
+						["f,f+1<4<3,3,3,2<1","Panik Jam Combo","EFB","13,8,10,10,7,12,13","mLLLLmm","FS #3"],
+						["d/f+1,2","Old Pistons","FB","8,21","mm","JG"],
+						["f,f+1+2","Steel Dive","SLD","27","M",""],
+						["2~1","Panik Doctor","FB","-","-",""],
+						["u/f+2","Wind Old Fist","FB","15","h","JG #6"],
+						["f,f+2","Jack Tamer","FB","20","m","CSc"],
+						["f,f+2 (vs Gun Jack)","Jack Tamer","","24","m","CH"],
+						[" = N"," = Dark Greeting Reversal","EFF","32","!","CH"],
+						[" = ~u"," = Remote Control Giga Stomp","FB","-","-","CH"],
+						[" = ~d"," = Fall Back","FB","-","-","CH"],
+						["f,f,N+2","Elbow Rush","FB","8","m",""],
+						["f,f,N+2","Elbow Warp","FB","9,5","m","CH"],
+						[" = f,f"," = Taunt Doc","FB","-","-",""],
+						[" = 1+2"," = Mind Warp","PLD","25","M",""],
+						[" = 3"," = Pig Leg","FB","20","M",""],
+						["SS+2","Gut Stun Punch","FB","18","m","DSc"],
+						[" = 1"," = Spinning Old Fist","FB","25","m",""],
+						["3,4","Low Spin Kick - Shin Kick","","12,7","LL",""],
+						["f,f+3","Slash Kick","FB","30","m","GB"],
+						["f,f,N+3","Paniksmoka","KND","25,28","mM",""],
+						["D/B+3,4,3,4,3,4","Dr. Kossak Kicks","FB","15,12,10,12,12,12","LLLLLL","#7"],
+						["f+3+4","Trip Slide","PLD","17","M","#8"],
+						["f,f+3+4","Belly Flop","SLD","30","M","GB"],
+						["3+4","Panik Charge","","-","-",""],
+						[" = u/f+1"," = Stagger Old Fist","EFB","25","m",""],
+						[" = u/f+1,3,3,3,3"," = Panik Old Fist Chain","FB","25,20,10,10,10","mmmmm",""],
+						[" = ~B"," = Shadow Legs (up to 4 sets)","EFF","-","-",""],
+						["   = 3","   = Overhead Crescent","FB","28","h",""],
+						["   = 4","   = Disgrace Kick","FB","21","h","GB"],
+						["b+3+4","Reverse Panik Charge","BT","-","-",""],
+						[" = ~B_~F"," = Shadow Legs (up to 4 sets)","EFF","-","-",""],
+						["   = 3","   = Summer Kick","FB","25","m",""],
+						["   = 4","   = Winter Kick","FB","21","h","JG"],
+						["f,f+4","Frankenstainer","SLD","21","M",""],
+						["d+4","Slicer","FCD","10","L",""],
+						["1+2","High & Mid Punch Parry","EFF","-","-",""],
+						[" = 1+2"," = Irish Whip","FB","10","Throw","#5"],
+						[" = 3+4"," = Rolling Power Bomb","FB","37","Throw","#5"],
+						["d+1+2","Low Parry","","-","-",""],
+						["1+4","Bad Stomach","SLD","-","-",""],
+						["b+1+4","Guard Breaker","KND","0","!",""],
+						["f","High CH Right Kick Reversal","EBF","45","-","#9"],
+						["d+3+4","Resting Doctor","","-","-",""],
+						[" = 3_4"," = Skidding Doctor","","-","-","#4"],
+						["   = u_b_f","   = Stand Up","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Back Turned Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["f,f","Back Turned Dash","BT","-","-",""],
+						["f,f+1","Dragon Back Blow","FB","15","m","OB"],
+						["1+2","Mind Blast","PLD","25","M",""],
+						["b+1+2","Mind Blast Away","KND","25","M",""],
+						["3+4","Reverse Panik Charge","BT","-","-",""],
+						[" = ~B_~F"," = Shadow Legs (up to 4 sets)","EFF","-","-",""],
+						["   = 3","   = Summer Kick","FB","25","m",""],
+						["   = 4","   = Winter Kick","FB","21","h","JG"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Slide Position Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1_2","Turn Over","PLD","-","-",""],
+						["u_d","Roll Over","PLD","-","-",""],
+						["f","Forward Roll","PLD","-","-",""],
+						[" = f+1+2"," = Head Dive","EFB","15","M","GB"],
+						["   = ~b+1+2","   = Mind Warp","KND","25","M",""],
+						["b","Backward Roll","FB","-","-",""],
+						[" = f+1+2"," = Head Dive","EFB","15","M","GB"],
+						["   = ~b+1+2","   = Mind Warp","KND","25","M",""],
+						["3","Low Kick Rise","","7","l",""],
+						["3+4","Trip Slide","PLD","15","L","#1"],
+						["4","Mid Kick Rise","","10","m",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Face Down Position Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1_2","Turn Over","KND","-","-",""],
+						["u_d","Roll Over","KND","-","-",""],
+						["f","Forward Roll","FB","-","-",""],
+						[" = 1+2"," = Mind Warp","PLD","25","M",""],
+						["b","Backward Roll","FCD","-","-",""],
+						[" = f+1+2"," = Mind Warp","PLD","25","M",""],
+						["3","Trip Kick Rise","","7","l","JG"],
+						["4","Spinning Crescent Lunge","FCD","18","m",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Knockdown Position Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["F_B","Doctor Scoot","KND","-","-",""],
+						["u_d","Roll Over","PLD","-","-",""],
+						["f,f","Forward Doctor Roll","SLD","-","-",""],
+						[" = 4"," = Falling Heel","KND","16","M","#1"],
+						[" = f+1+2"," = Head Dive","EFB","15","M","GB"],
+						["b,b","Backward Doctor Roll","FB","-","-",""],
+						[" = f+1+2"," = Head Dive","EFB","15","M","GB"],
+						["3<3","Rolling Kicks","FCD","7,30","lm",""],
+						["3+4","Hop Up","SLD","20","m",""],
+						[" = ~b","Knock Down Position","KND","-","-",""],
+						[" = ~d","Stand Up","","-","-",""],
+						[" = d+3+4","Trip Slide","PLD","15","L","#2"],
+						["4,3,4,3,4","Roger Kicks","","0,10,10,10,17","!mmmm","#3"],
+						["4,4,3,4,3,4","Side Roll Roger Kicks","","0,10,10,10,17","!mmmm","#3"],
+						["1+2+3+4","Grounded Ki Charge","KND","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Play Dead Position Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["F_B","Doctor Scoot","PLD","-","-",""],
+						["u_d","Roll Over","SLD","-","-",""],
+						["f,f","Forward Doctor Roll","FB","-","-",""],
+						[" = 1+2"," = Mind Warp","PLD","25","M",""],
+						["f,f+3+4"," Rolling Kangaroo Kick","EFB","25","m",""],
+						[" = ~1+2"," = Mind Warp","PLD","25","M",""],
+						["b,b","Backward Doctor Roll","FCD","-","-",""],
+						[" = f+1+2"," = Mind Warp","PLD","25","M",""],
+						["3+4","Kangaroo Kick","EFB","21","m",""],
+						["1+2+3+4","Grounded Ki Charge","PLD","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Fall Back Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["u/f_f_d/f","Fall Back Cancel","","-","-","#1"],
+						["d_2","Fast Fall Back","KND","-","-","#2"],
+						["U","Doctor Bounce","KND","27","M","#2"],
+						["1+2","Panik Doctor","FB","-","-",""],
+						["3+4","Flip Flop","KND","25","m",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Electric Fall Back Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["u/f_f_d/f","Fall Back Cancel","","-","-","#1"],
+						["U","Doctor Bounce","KND","27","M","#2"],
+						["1+2","Panik Doctor","FB","-","-",""],
+						["3+4","Flip Flop","KND","25","m",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+3+4, U","Super Doctor","PLD","48","[!]",""],
+						["KND 1_2","Doctor Breath","KND","3","[!]",""],
+						["PLD 1_2","Doctor Breath","PLD","3","[!]",""],
+						["b+1+2","Bio Reactor","","10,10,10,10...","!","#1"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["3+4","","-","-"],
+						[" = u/f+1,3,3,F+3,3,3,3,3,3,3","20","25,20,10,10,10,15,10,10,10,10","mmmmmhmmml"],
+						["   = 4,4,4,3,3,3,3,3,2,1","","10,10,10,10,10,10,10,7,12,13","hhhLLLLmm"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "True Stance Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "eddy",
+			"name": "Eddy",
+			"fullname": "Eddy Gordo",
+			"sex": "Male",
+			"origin": "Brazil",
+			"fightingStyle": "Capoeira",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Rio Deal","Front","30","1",""],
+						["2+4","Rio Special","Front","30","2",""],
+						["hcf+1+2","Rodeo Spin","Front","55","1+2",""],
+						["(1+3_2+4_2+5)","Missile Launcher","Left","40","1",""],
+						["(1+3_2+4_2+5)","Shadow Dancer","Right","42","2",""],
+						["(1+3_2+4_2+5)","Air Mail","Back","60","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","6,15","hh",""],
+						["b+1+2","Straight Jab","","5","h",""],
+						["d/f+1","Elbow Sting","","10","m",""],
+						["FC+1+2","Crying Needle","","25","m","#6"],
+						[" = ~1"," = Needle Cancel","","-","-","RC"],
+						["   = <2","   = Hammer Head","","30","m",""],
+						["(f_FC,d/f)+1+2 [~d/b]","Handstand Position [Fake Out]","HSP","-","-",""],
+						["WS+2","Upper","","15","m","JG"],
+						["d/f+2","Elbow Upper","","15","m","SH"],
+						["f+2,1,4","Carnival Rush","","8,10,20","hhm","#7"],
+						["WS+3","Face Jammer","","25","h",""],
+						["f+3","Brush Fire","HSP","15","m",""],
+						["f,f+3 [~B] [~D]","Lunging Brush Fire [HSP ][RLX]","","30","m",""],
+						["d/f+3 [~D]","Island Mirage [RLX]","HSP","15","m",""],
+						["b+3","Knee Thruster","","10","m",""],
+						["d/b+3 [~B]","Weed Whacker [HSP]","","12","m","RC"],
+						[" = 3"," = Hot Plate","RLX","13","m",""],
+						["   = ~D","   = Hot Plate Cancel","RLX","-","-","#5"],
+						["   = ~B","   = Hot Plate Cancel","HSP","-","-","#5"],
+						["   = B","   = Handstand Position","HSP","-","-","#5"],
+						[" = 4"," = Cutting Leg Whip","","15","h","#1"],
+						[" = ~3"," = Bush Whacker","","25","M",""],
+						[" = ~4 [~B]"," = Shin Cutter [HSP]","","15","L","RC"],
+						["   = 4 [~B]","   = Cross Cutter [HSP]","","15","l",""],
+						["   = 1+2","   = Crying Needle","","15","m","#6"],
+						["     = ~1","     = Needle Cancel","","-","-","RC"],
+						["       = <2","       = Hammer Head","","30","m",""],
+						["(u_u/f)+3+4 [~D_~B]","Fire Kick [RLX]","","20","m",""],
+						["3+4 [~B]","Back Handstand Spring [HSP]","","18","M","#4"],
+						["(FC_WS)+3+4 [~B] [~D]","Front Stinger [HSP] [RLX]","","20","m","KS"],
+						["f,f+3+4","Boomerang","","30","M","GB BN"],
+						["d/f+3+4","Freak Show","","20","m","JG"],
+						["3~4 [~B]","Slippery Kick Series [HSP]","RLX","10,10","LL","JG"],
+						[" = 4 [~B]"," = Slider [HSP]","","15","L","RC"],
+						[" = 4,4 [~B]"," = Slide Flop [HSP]","","15","Ll",""],
+						[" = 4,1+2"," = Slider - Crying Needle","","15,15","Lm","#6"],
+						["   = ~1","   = Needle Cancel","","-","-","RC"],
+						["     = <2","     = Hammer Head","","30","m",""],
+						["WS+4","Circle Kick","","15","m",""],
+						["f+4 [~B]","Samba [HSP]","","20","m","#2"],
+						["f,f+4","Black Summy","","-","-","RC"],
+						[" = 3"," = Fire Kick","RLX","20","L",""],
+						[" = 4"," = High Thrust","RLX","35","h",""],
+						["d/f+4","Knee Cap Crusher","","12","l",""],
+						["b+4","Leg Whip Series","","15","h","CSc"],
+						[" = 3 [~B]"," = Weed Whacker [HSP]","","15","L","RC"],
+						["   = 3","   = Hot Plate","RLX","13","m",""],
+						["     = ~D","     = Hot Plate Cancel","RLX","-","-","#5"],
+						["     = ~B","     = Hot Plate Cancel","HSP","-","-","#5"],
+						["     = B","     = Handstand Position","HSP","-","-","#5"],
+						["   = 4 [~B]","   = Cuttng Leg Whip","","15","h","#1"],
+						["   = ~3","   = Bush Whacker","","25","M",""],
+						["   = ~4 [~B]","   = Shin Cutter [HSP]","","15","L","RC"],
+						["     = 1+2","     = Crying Needle","","15","Lm","#6"],
+						["     = ~1","     = Needle Cancel","","-","-","RC"],
+						["       = <2","       = Hammer Head","","30","m",""],
+						["   = 4 [~B]","   = Cross Cutter [HSP]","","15","l",""],
+						[" = 4 [~D]"," = Mars Attacks [RLX]","","12,25","MM",""],
+						[" = 4,3+4"," = Full Mars Attack","","12,25,20","MMM",""],
+						["d/b+4,4,4,4,... [b+4]","Barbed Wire [HSP]","","15,30,30,30...12","hhhh...m","#3"],
+						["(u_u/f)+4","Roundhouse","","28","m",""],
+						["4~3","Satellite Moon","","16,20","mh",""],
+						[" = 3 [~B]"," = Hot Plate [HSP]","RLX","15","m",""],
+						["u,u/b","Evasive Back Flip","HSP","-","-",""],
+						["(1+2_d+1+2_SS)","Rewinder","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Handstand Position Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["(u_d)","Handstand Sidestep","HSP","-","-",""],
+						["F","Handstand Walk","HSP","-","-",""],
+						["D","Handstand Perch","HSP","-","-",""],
+						["(b_N)","Stand Up","","-","-",""],
+						["D/F","Handstand Roll","RLX","-","-",""],
+						["F+1+2","Tuck & Roll","HSP","-","-",""],
+						["1","Left Flop Punch","","10","m","#1 RC"],
+						["2","Right Flop Punch","","10","m","RC"],
+						[" = 4 [~B]"," = Swirl Kick [HSP]","","12","L",""],
+						["   = 3","   = Carnival Sweep","","25","L",""],
+						["3","Scoot Kick","RLX","15","L",""],
+						["b+3","Hot Plate","RLX","20","m",""],
+						[" = ~D"," = Hot Plate Cancel","RLX","-","-","#3"],
+						[" = ~B"," = Hot Plate Cancel","HSP","-","-","#3"],
+						[" = B"," = Handstand Position","HSP","-","-","#3"],
+						["(u_d)~(3_4)","Carnival Sweep","","25","L",""],
+						["(u_d)+(3_4) [~D]","Slice Kick [RLX]","HSP","10","M",""],
+						["3~4 [~B]","Slippery Kick [HSP]","RLX","10,10","LL","#2"],
+						["d+3+4 [~5]","Perch Flop Kick [tag]","HSP","25","m","JG"],
+						["4","Helicopter","HSP","12,12","sh",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Rewinder Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2","Spin Slaps","","12,15","hh","#3"],
+						[" = ~3"," = Freak Show","","20","m","JG"],
+						[" = 3"," = Island Mirage","HSP","13","m",""],
+						["1+4","Banda","","17","L",""],
+						["2","Cruncher","","18","m","BNc GB"],
+						["3","Hot Plate","RLX","15","m",""],
+						[" = ~D"," = Hot Plate Cancel","RLX","-","-","#1"],
+						[" = ~B"," = Hot Plate Cancel","HSP","-","-","#1"],
+						[" = B"," = Handstand Position","HSP","-","-","#1"],
+						["   = 3+4","   = Instant Perch Flop Kick","HSP","25","m","JG #2"],
+						["3+4","Wheel Kick","","6,6","hm",""],
+						[" = 3+4"," = Skull Kick","","25","M","BN GB"],
+						["   = 3+4","   = Sao Paulo Special","","18","M",""],
+						["     = u/f+3+4 [~B_~D]","     = Fire Kick [RLX]","","20","m",""],
+						["u+3 [~D]","Skull Kick [RLX]","","25","m","GB"],
+						[" = ~3"," = Freak Show","","20","m",""],
+						[" = 3"," = Carnival Sweep","","25","L",""],
+						[" = 3+4"," = Kick Out","RLX","15","L",""],
+						["4~3 [~B]","Leaping Face Kick [HSP]","","50","h","GB"],
+						["4 [~B]","Swirl Kick [HSP]","","12","L",""],
+						[" = 3"," = Carnival Sweep","","25","L",""],
+						[" = 3+4 [~B] [~D]"," = Front Stinger [HSP] [RLX]","","20","M",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Relaxed Position Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2","Crying Needle","","20","m","#3"],
+						[" = ~1"," = Needle Cancel","","-","-","RC"],
+						["   = <2","   = Hammer Head","","30","m",""],
+						["f,f+1+2","Headlong Dive","","15","m",""],
+						["3,4","Rio Delight","","7,28","lm",""],
+						["3~4","Scoop Up Kick","","20","M","JG"],
+						["3+4 [~B_~3]","Back Handspring [HSP]","","25","M","#2"],
+						["b,b+3+4","Rising Feet Lunge","","20","m","BT"],
+						["4~3","Flare","HSP","12","L","#1"],
+						["4,3+4 [~B_~3]","Mid Kick - Back Handspring [HSP]","","10,25","mM","#3"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d/b+3+4","Fruit Picker","","40,40","![!]",""],
+						[" = b,b"," = Cancel","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["4~3,4,2,4,4,3+4,3+4,3+4,d/b+3+4,u/f+3+4","12","16,20,28,7,8,9,13,6,6,21,15,20","mmmhhmmmhmmm"],
+						["4~3,4,2,4,3","6","16,20,28,7,8,12","mmmhhL"],
+						[" = Leg Whip Strings","","",""]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "forest",
+			"name": "Forest",
+			"fullname": "Forest Law",
+			"sex": "Male",
+			"origin": "USA",
+			"fightingStyle": "Jeet Kune Do",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Dragon's Fire","Front","7,23","1",""],
+						["2+4","Hopping Frog","Front","30","2",""],
+						["d/f+1+2","Chastisement Punch","Front","30","2",""],
+						[" = 1,2,1+2"," = Bulldog Drop","","35","None","#1"],
+						["f,f+3+4","Dragon Knee","Front","28","1+2",""],
+						["f+2+3","Run Up Drop","Front","30","1",""],
+						["(1+3_2+4)","Headlock Kick","Left","40","1",""],
+						["(1+3_2+4)","Nut Cracker","Right","42","2",""],
+						["(1+3_2+4)","Dragon Bites","Back","50","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","5,12","hh",""],
+						["1,1,1,1,1","Machine Gun Arrow","","5,5,5,5,5","hhhhh",""],
+						[" = 2,2"," = Rave War","","6,10","hh","#4"],
+						[" = F+2,2<2"," = Rave War Combo","","6,5,10","hmh","#4"],
+						["qcf+1","Power Jab","","12","h","KNDc"],
+						["b+1<2<1","Dragon Storm","","12,12,15","mmm","JG"],
+						["BT (1_2)","Dragon Back Blow","","","h_h","OB"],
+						["2,2","Rave War","","6,10","hh",""],
+						["F+2<2<2","Rave War Combo","","6,5,10","hmh",""],
+						["f+2~1","Poison Arrow","","40","m",""],
+						["d/b+2","Dragon Whip","","15","m",""],
+						[" = ~4 [~D]"," = Spring Kick [PLD]","","24","m",""],
+						["b+2,3,4","Junkyard Combo","","12,8,22","mlm","JG"],
+						["(FC_d)+2,3","Mid Jab - Somersault","","(10_8),21","sm",""],
+						["3<4","Head Kick - Somersault","","18,21","hm","JG RC"],
+						["3,3,4","Double Kick - Somersault","","18,10,21","hhm","JG RC"],
+						["3,3,f+3","Double Kick - Step In Kick","","18,10,15","hhm",""],
+						["3,3,3,4","Triple Kick - Roundhouse","","18,10,10,21","hhhm","JG RC #1"],
+						["d/f+3","Step In Kick","","18","m",""],
+						["d+3,3","Rave Kicks","","8,10","lh",""],
+						[" = f+3"," = Step In Kick","","15","m",""],
+						[" = 4"," = Somersault","","21","m","JG RC"],
+						[" = 3,4"," = Head Kick - Somersault","","10,21","hm","JG RC"],
+						[" = 3,3,4"," = Double Kick - Somersault","","10,10,21","hhm","JG #1 RC"],
+						[" = 3,f+3"," = Head Kick - Step In Kick","","10,15","hm",""],
+						["(WR_f,f,f)+3","Leaping Slash Kick","","30","m","GB"],
+						["FC,d/f,d,d/f+3","Dragon Slide","","17","L",""],
+						["FC+3,4","Crouch Kick - Somersault","","12,21","Lm","JG RC"],
+						["WS+3,4","Twist Kick - Somersault","","28,25","hm","JG #1"],
+						["(u/b_u_u/f)+3,4","Jump Kick - Somersault","","25,25","mm","JG #1 RC"],
+						["SS+3+4","Double Dragon","","16,22","mh",""],
+						["d+3+4 [~D]","Frog Man [KND]","","25,27","mm",""],
+						["3+4","Catapult Kick","","21","m","JG RC"],
+						[" = 3"," = Twin Catapult","","21","m","JG RC #1"],
+						["4,3,4","Shaolin Spin Kicks","","16,12,12","hhh",""],
+						["FC,(u/b_u_u/f)+4","Quick Catapult","","15","m","JG RC"],
+						[" = 3"," = Twin Catapult","","21","m","JG #1"],
+						["FC,(u/b_u_u/f),4","Fake Somersault - Sky Kick","","25","m","JG"],
+						["FC,(U/B_U_U/F)+4","High Catapult Kick","","35","m",""],
+						["FC,(U/B_U_U/F)+3+4","Rainbow Kick","","30,20","ML",""],
+						["4,(u_uf)+3","Roundhouse - Somersault","","16,30","hm",""],
+						["(FC_d)+4,3","Side Kick - Somersault","","7,21","mm","JG RC"],
+						["d/f+4,3","Front Kick - Somersault","","15,21","mm","JG RC"],
+						["WS+4,3","Face Kick - Somersault","","12,21","mm","JG RC"],
+						["(U/B_U_U/F+4)","Quick Advance Catapult","","15_22_25","m","JG RC"],
+						[" = 3"," = Twin Catapult","","25","m","JG #1"],
+						["d/b+4","Dragon Tail","","25","l",""],
+						["b+1+2","Tricky Step","","-","-","#2"],
+						[" = ~1"," = Tricky Trap","","12","h","OB"],
+						[" = 2"," = Tricky Fist","","12","h","SH"],
+						[" = 3"," = Tricky Step In Kick","","22","h",""],
+						[" = 4"," = Tricky Low Kick","","15","l",""],
+						["b+1+2","Tricky Step","","-","-","#3"],
+						[" = 1"," = Fake Step Blow","","43","m",""],
+						["1+2+3+4~1,3","Mugging","","10,7","hl",""],
+						["FC,d/f,d,d/f","Crouch Dash","","-","-",""],
+						["b+(1+3_2+4)","High Parry","","-","-",""],
+						["(d_d/b)+(1+3_2+4)","Low Parry","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d/b+1+2","Dragon Fang","","100","!",""],
+						[" = u,u"," = Cancel","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["d/f+1,2,2,1,3,3,3,4,3,4","10","10,5,6,5,7,6,7,7,10,25","mhmhhLhhhm"],
+						["d/f+1,2,2,1,3,3,d+3,N+4,4,4","10","10,5,6,5,7,6,6,8,15,38","mhmhhLmlLm"],
+						["d/f+1,2,2,1,3,3,d+3,N+3,4,4","10","10,5,6,5,7,6,6,7,7,38","mhmhhLmlLm"],
+						["d/f+1,3,2,2,3,3,3,4,3,4","10","10,6,6,8,6,6,7,7,10,25","mlmhhLhhhm"],
+						["d/f+1,3,2,2,3,3,d+3,N+4,4,4","10","10,6,6,8,6,6,6,8,15,38","mlmhhLmhlm"],
+						["d/f+1,3,2,2,3,3,d+3,N+3,4,4","10","10,6,6,8,6,6,6,7,7,38","mlmhhLmlLm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "gon",
+			"name": "Gon",
+			"fullname": "Gon",
+			"sex": "Non-Human",
+			"origin": "Japan",
+			"fightingStyle": "Dragon Self Defense",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["(1+3_2+4)","Kickup Bite","Front","35","None",""],
+						["b+1+2","Tail Toss","Any","17","None",""],
+						["(1+3_2+4)","Dino Swing","Left","42","None",""],
+						["(1+3_2+4)","Choke Slam","Right","10,15,25","None",""],
+						["(1+3_2+4)","Dino Pounce","Back","42","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,1,1,1,1...","Advancing Punches","","5,8,6,5,8...","hMMhM...",""],
+						["(u/b_u_u/f)+1","Dino Gonfist","","21","M","JG"],
+						["(f,N,d,d/f_WS)+(1_2)","Mini Upper","","15","m","JG"],
+						["b+1","Roger Punch","","30","m","GB"],
+						["F+1+2,1+2,1+2","Rushing Dino Head","","7,14,21","MMM","GB"],
+						["f,f+1+2","Saw Blade","","21,21","MM","GB"],
+						["f,f+1+2,1+2","Saw Blade - Mini Gonfist","","21,21","MM","GB"],
+						["f,N,d,d/f+1+2","Dino Shoulder","","20","M","JG"],
+						["(u/b_u_u/f)+1+2","Elbow Drop","","35","M","GB"],
+						["(U/F_U_U/F)~1+2","Belly Flop","","15","m","GB KS"],
+						["f+2+3","Helicopter","","m","40",""],
+						["f+3,3","Trip Sweeps","","12,17","LL","JG"],
+						["(u/b_u_u/f)+3","Hop Kick Left","","15","m","JG"],
+						["(u/b_u_u/f), (3_4)","Mini Buttflop","","15","M","JG"],
+						["(U/B_U_U/F)~(3_4)","Butt Flop","","15","M",""],
+						["(U/B_U_U/F), (3_4)","Hop Trip","","25","L","FCD"],
+						["3+4","Dino Headbutt","","25","M","JG CF"],
+						["f+3+4","Mini Exploder","","40","m",""],
+						["b+3+4 [~B]","Norwegian Step","","-","-",""],
+						["d/f+3+4","Frankensteiner","","15","M",""],
+						["u+3+4","Quick Helicopter Spin","","10,10,10,10","mhmL","KS"],
+						["(u/b_u/f)+3+4","Flip Stomp - Butt Flop","","10,26","MM",""],
+						["(U/F_U/B)~3+4","Helicopter Spin","","10,10,10,10","mhmL","KS"],
+						["FC,d/f+3+4","Low Shin Charge","","21","L","JG"],
+						["FC,d/b+3+4","Roll Back Roo","","20","m","JG"],
+						["d+4","Tail Smack","","22","M","KS"],
+						["4,4,4,4,4,3+4","Tail Spins - Dino Gonfist","","10,10,10,10,10,25","MLLLLM","JG"],
+						["u+4","Butt Flop","","15","m",""],
+						["(u/b_u/f)+4","Hop Kick Right","","15","m","JG"],
+						["(d_d/b)+1+2","Play Dead","","-","-",""],
+						[" = (3_4)"," = Tail Smack","","20","M","KS"],
+						["d/b+3+4","Sit","","n-","-",""],
+						[" = f, (3_4)"," = Forward Roll Kick","","15","m",""],
+						[" = b, (3_4)"," = Backward Roll Roo","","22","m",""],
+						["WR f+1+2","Dino Belly Slide","","27","M",""],
+						["WR f+3+4","Headdive","","25","m",""],
+						["d/f+1+2","Guard Break","","0","!","GB"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2","Fire Breath","","20","[!]",""],
+						[" 1+2~(1~2)","Dino Charge","","15","!",""],
+						[" = ~2"," = Fall Down","","15","!",""],
+						["f+1+4","Super Dino Charge","","100,1","[!] !",""],
+						["b+4","Dino Wind","","10","[!]","CF"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "gunjack",
+			"name": "Gun Jack",
+			"fullname": "Gun Jack",
+			"sex": "Non-Human",
+			"origin": "Unknown",
+			"fightingStyle": "Power Fighting / Sheer Force",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Body Slam","Front","35","1",""],
+						["2+4","Gorilla Press","Front","30","2",""],
+						["qcf+1","Pyramid Driver","Front","40","1",""],
+						["qcb+2","Backbreaker","Front","45","2",""],
+						["d/b,F+1+2","Piledriver","Front","58","1+2",""],
+						["d/b+2+3","Face in the Dirt","Front","32","2",""],
+						["f,f+2+3","Jawbreaker","Front","35","2",""],
+						["d/f+2+4","Catapult","Front","30","2",""],
+						["d/f,d/f+2+4","Modified Catapult","Front","30","2","JG #1"],
+						["u/f+1+2","Ground Zero","Front","33","1",""],
+						[" = d,d/f+2"," = Gigaton Punishment","","60","B","#3"],
+						["d/f+1+3","Body Press","Front","25","None","#2"],
+						[" = 1+2"," = Face Bash","","10","None",""],
+						["(1+3_2+4)","Hanging Neck Throw","Left","40","1",""],
+						["(1+3_2+4)","Flipping Choke Slam","Right","40","2",""],
+						["1+3","Spinal Crush","Back","30,40","None",""],
+						["2+4","Death Shot","Back","70","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,1,1","Jack Hammer","","18,15,18","hhm",""],
+						["WS+1","Violent Uppercut","","20","m","JG"],
+						["d/b+1,1,1,[1,1],2","Machine Gun - Megaton Punch","","15,15,15,15,15,40","lllllm","RC"],
+						["b,d/b,d,D/F+1","Debugger","","29","L","RC"],
+						["hcf+1","Gigaton Punch","","20","m","GB"],
+						["D/F+1,2,1,2","Uppercut Rush","","10,15,10,15","mmmm","JGc RC #5"],
+						["(D/F,1,2,1_FC,D/F+1,2,1)","Quick Upper Rush","","15,12,15","mmm","JGc RC #5"],
+						["hcf,D/F+1","Megaton Uppercut","","22","m","JG"],
+						["FC,d/f+1,2,1","Windmill","","12,15,15","mmm",""],
+						[" = 1"," = Windmill Backhand","","30","h","GB"],
+						["(D/F,1,2_FC,D/F+1,2)","Medium Uppercut Rush","","15,12","mm",""],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["FC,d/b+1,1,1,2","Revolving Knuckles - Megaton Punch","","18,25,25,40","lllm","RC"],
+						["FC+1,1,1,2","Hammer Rush","","10,8,12,12","LLmm","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["FC+1,2","Low Punch - Megaton Punch","","10,25","Lm","RC"],
+						["1+2,1+2","Hammer Knuckle - Double Uppercut","","21,22","mm",""],
+						["WS+1+2,1+2","Double Uppercut - Hammer Knuckle","","21,17","mm","JG"],
+						["(F_f)+1+2","Arm Scissors","","17","m","CF JG"],
+						[" = 1+2"," = Cross Cut Saw","","15","l","RC"],
+						[" = ~d/f+2"," = Megaton Punch","","25","m","RC"],
+						["d+1+2","Bravo Knuckle","","45","m","JG"],
+						["FC+1+2","Low Palm Lift","","21","L","RC"],
+						["(FC,d/f+1+2_D/F,1+2)","Cross Cut Saw","","21","l","RC"],
+						["d/f+1+3","Body Press","","20","m","#1"],
+						["2,1,2","Punch - Elbow - Uppercut","","12,21,20","hmm","JG RC"],
+						["(D/F,2_FC,d/f+2)","Short Hammer Rush","","10","m","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["D/F+2,1,2,1","Hammer Uppercut Rush","","10,15,10,15","mmmm","JG RC"],
+						["(D/F,2,1,2_FC,D/F+2,1,2)","Quick Upper Rush","","15,10,15","mmm","JGc RC #4"],
+						["b,d/b,d,D/F+2","Megaton Punch","","40","m","RC"],
+						["d/f+2+3","Low Ankle Swipe","","12","L","RC"],
+						["D/B+3,4,3,4,3,4","Cossack Kicks","","12,12,12,12,12,12","LLLLLL",""],
+						["f+3+4","Digital Hans Headslide","","25","m_L","GB #3"],
+						["u/f+3+4","Hip Press","","26","M","#2"],
+						["d+3+4","Sit Down","","-","-",""],
+						[" = ~3+4"," = Hop Hip Press","","35","M","#2"],
+						[" = B"," = Roll Back","","-","-",""],
+						[" = F"," = Roll Forward","","-","-",""],
+						[" = (1,2,1,2_2,1,2,1)"," = Sitting Punches","","10,10,10,10","llll",""],
+						["KND d+1+2","Spring Hammer - Sit Down","","12","m",""],
+						[" = (1,2,1,2_2,1,2,1)"," = Sitting Punches","","10,10,10,10","llll",""],
+						["d+4","Ganny Stomp","","50","M",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["f+4~1","Dark Greeting","","101","!","JG"],
+						["3+4","Gigaton Stomp","","60","[!]",""],
+						["3+4,3+4","Double Thrust Gigaton Stomp","","70","[!]",""],
+						["3+4,3+4,3+4","Triple Thrust Gigaton Stomp","","80","[!]",""],
+						["hcf","Gigaton Start Up","","-","-",""],
+						[" = b,d/b,d,d/f,f,u/f,u,u/b"," = Wind Up","","-","-","#1"],
+						["   = 1","   = Gigaton Punch","","40","!","#2"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["D+2,1,1,1,2,1,2,11+2,1+2","10","10,6,5,7,7,6,6,8,21,25","sLLmmmmmmm"],
+						["D+2,1,1,1,21,2,1,d+1+2,1+2","10","10,6,5,7,7,6,6,8,12,35","sLLmmmmmlm"],
+						["u/f+1,1,4,3,4,1,2,1,1+2,1+2","10","15,8,5,5,5,8,6,8,21,25","hmLLLmmmmm"],
+						["u/f+1,1,4,3,4,12,1,d+1+2,1+2","10","15,8,5,5,5,8,6,8,12,35","hmLLLmmmlm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "heihachi",
+			"name": "Heihachi",
+			"fullname": "Heihachi Mishima",
+			"sex": "Male",
+			"origin": "Japan",
+			"fightingStyle": "Mishima-Style Fighting Karate",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Neck Breaker","front","30","1",""],
+						["2+4","Power Bomb","front","30","2",""],
+						["f,f+1+2","Stone Head","front","33","1+2","#1"],
+						["f,f+1+4","Head Butt Carnival","front","29","1+2","#2"],
+						["(1+3_2+4_2+5)","Tile Splitter Guillotine","left","40","1",""],
+						["(1+3_2+4_2+5)","Free Fall","right","46","2",""],
+						["(1+3_2+4_2+5)","Atomic Drop","back","45","n/a",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","5,8","hh",""],
+						["1,1<2","Shining Fists","","18","hhm",""],
+						["1,2,2","Demon Slayer","","5,8,18","hhh",""],
+						[" = ~1+2"," = Demon Executioner","","22","m","#3 KND"],
+						["f+1<b+2,1","Demon Massacre","","6,21,25","hmm",""],
+						["f+1<b+2,4","Demon Lair","","6,21,30","hmm",""],
+						["d+1","Tile Splitter","","15","m",""],
+						[" = 2"," = Death Fist","","26","m",""],
+						["d/f+1,2","Twin Pistons","","8,21","mm","JG"],
+						["f,N,d,d/f+1","Thunder Godfist","","31","m",""],
+						["1+2","Demon Breath","","22","m","CF KNDc"],
+						["d/f+2","Uppercut","","15","m","SH JGc"],
+						["b+2","Demon Boar","","25","m","MS KNDc"],
+						["2,2","Demon Backhand Spin","","12,21","hh",""],
+						["f+2","Demon Backhand","","21","h",""],
+						[" = ~1+2"," = Demon Breath","","22","m","#3 KND"],
+						["f,f+2","Demon Godfist","","30","m","JG"],
+						["f,N,d,d/f+2","Wind Godfist","","25","s","JG"],
+						["qcf+2","Deathfist","","30","m",""],
+						["f,f+3","Split Axe Kick","","24","m","FSc"],
+						["f,f,N+3","Delayed Split Axe Kick","","24","m","KND"],
+						["(WR_f,f,f)+3","Leaping Slash Kick","","30","m","GB"],
+						["f,N,d,d/f+3","Demon Gut Kick","","35","m",""],
+						["f,N,d,D/F+3","Demon Slice Kick","","21","L",""],
+						["u/f+3,4","Hell Axe","","17,22","mh","GB #2"],
+						["u+4","Hop Kick","","15","m","JG"],
+						["u/f+4,4","Rising Sun","","25,15","hL",""],
+						["WS+4,4","Tsunami Kick","","12,18","mm",""],
+						["(qcf_f,N,d,d/f,f)+4<4","Delay Tsunami Kick","","12,18","mm",""],
+						["f,N,d,D/F+4","Hell Sweep","","17","L","JG"],
+						[" = N+4"," = Rising Kick","","18","m",""],
+						[" = N+4<4"," = Tsunami Kick","","18,21","mm",""],
+						[" = N+1"," = Thunder Godfist","","21","m",""],
+						[" = N+2"," = Demon Godfist","","22","m",""],
+						[" = 4"," = Hell Sweep","","13","L",""],
+						["   = N+4","   = Rising Kick","","18","m",""],
+						["   = N+4<4","   = Tsunami Kick","","18,21","mm",""],
+						["   = N+1","   = Thunder Godfist","","21","m",""],
+						["   = N+2","   = Demon Godfist","","22","m",""],
+						["   = 4","   = Hell Sweep","","13","L",""],
+						["     = N+4","     = Rising Kick","","18","m",""],
+						["     = N+4<4","     = Tsunami Kick","","18,21","mm",""],
+						["     = N+1","     = Thunder Godfist","","21","m",""],
+						["     = N+2","     = Demon Godfist","","22","m",""],
+						["4~3","Demon Scissors","","25","M","#4"],
+						["f+4","Demon Axe Kick","","27","m",""],
+						["d+4","Geta Stomp","","25","L","#1"],
+						["b,b,N+3+4","Shadow Step","","-","-",""],
+						["f","High CH Right Kick Reversal","","45","-","#5"],
+						["2+3+4","Auger Taunt","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d+1+4","Demon Tile Splitter","","70","!","#1"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["d/f+3,2,2,4,4,1,4,1,2,4","10","17,5,6,8,8,5,10,5,6,35","mhhLLmhhmm"],
+						["d/f+3,2,2,4,4,1,4,1,2,1","10","17,5,6,8,8,5,10,5,6,30","mhhLLmhhmm"],
+						["d/f+3,2,2,4,4,1,2,1,2,1","10","17,5,6,8,8,5,5,8,21,25","mhhLLmhmmm"],
+						["f,F,2,1,2,2,3,4,4,1,2,1","10","7,8,6,7,6,11,5,5,8,30","hhhhmmlhmm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "hwoarang",
+			"name": "Hwoarang",
+			"fullname": "Hwoarang",
+			"sex": "Male",
+			"origin": "Korea",
+			"fightingStyle": "Tae Kwon Do",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Pick Pocket","Front","20,10","1",""],
+						["2+4","Human Cannonball","Front","12,18","2","#1"],
+						["f,f+2","Roll & Choke","Front","30","2",""],
+						["qcb+3","Door Mat","Front","40","2",""],
+						["d,d/b+1+3","Leg Hook","Front","30","1+2",""],
+						["(1+3_2+4)","Dead End","Left","5,7,10,6,10,7","1",""],
+						["(1+3_2+4)","Neck Snapper","Right","22,22","2",""],
+						["(1+3_2+4)","Slaughter House","Back","55","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2","Disrespect","","-","-","BT"],
+						["3+4","Stance Change","","-","-","#1"],
+						["d/f+1+2","Body Blow","","10","m",""],
+						["f,N,d,d/f+2","Lifting Uppercut","","15","h","JG"],
+						["d/f+2","Uppercut","","15","m","JG"],
+						["f,N,d,d/f+3~3","Ecoli","","22","m","SH KNDc"],
+						["u+3","Flamingo Kick","LFS","20","m",""],
+						["WS+3","Windmill Kick","","28","m",""],
+						["d/f+3,4","Public Enemy","","17,21","m",""],
+						["u/f+3,4,3","Hunting Hawk","","15,14,25","mmh","#2 GB"],
+						["f,N,d,d/f+4","Sky Rocket","","23","m","JG"],
+						["d+4,4","Fire Cracker","","7,22","lh","JG GB"],
+						["d/b+4","Crippler","","10","L","OSc"],
+						["d/b+4~4","Repeater","","30","m","GB"],
+						["u/f+4","Rejection","","25","h","GB"],
+						["WS+4,4","Tsunami Kick","RFF","13,15","mM",""],
+						["(d_d/b)+(1+3_2+4)","Low Parry","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Left Foot Forward Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","5,10","hh",""],
+						[" = 3"," = Rejected","","16","m",""],
+						[" = 4"," = Rejection","","25","h",""],
+						["2","Right Jab","","10","h",""],
+						[" = 3"," = Rejected","","16","m",""],
+						[" = 4"," = Rejection","","25","h",""],
+						["1,1,3,3","Home Surgery","","5,8,10,18","hhlh",""],
+						["b+2","Reverse Shot","","12","h",""],
+						["f+2","Rusty Knife - Righty","RFF","15","m",""],
+						["F+2","Rusty Knife - Lefty","","15","m",""],
+						["f+3","Left Flamingo Stance","LFS","-","-",""],
+						["f+3~3","Ecoli","","22","m","KNDc"],
+						["f,f+3","Spiral Trap","RFF","30","m",""],
+						["f,f,f+3","Leaping Slash Kick","","30","m",""],
+						["3~4","Flying Eagle","","15,28","mh",""],
+						["3,3,d+3","Menace","","15,12,7","hml",""],
+						["3,3,d+3,4 [F]","Menace to Society [LFF]","RFS","15,12,7,20","hmlh",""],
+						["3,3,d+3,4,4","Double Menace to Society","RFF","15,12,7,20,15","hmlhm",""],
+						["3,3,4 [F]","Disorderly Conduct [LFF]","RFS","15,12,20","hmh",""],
+						["3,3,4,4","Bad Menace","RFF","15,12,20,15","hmhm",""],
+						["3,3,3,4 [F]","Party Hearthy [LFF]","RFS","15,12,10,20","hmmh",""],
+						["3,3,3,4,4","Total Outrage","RFF","15,12,10,20,15","hmmhm",""],
+						["3,3,3,3","Machine Gun Kicks","","15,12,10,25","hmmh","JG"],
+						["f+4","Doggie Lift","RFS","20","h",""],
+						["b+4","Nose Bleeder","RFF","28","h","OSc"],
+						["f+4,4","Short Outrage","RFF","20,15","hm",""],
+						["f,f+4","Torpedo Kick","","30","h","BT OB #1"],
+						["4,3","Axe Murderer - Righty","RFF","14,20","hm",""],
+						["4,f+3","Axe Murderer - Lefty","","14,17","hm",""],
+						["4,4","Rude Boy - Lefty","","14,10","hh",""],
+						["4,f+4","Rude Boy - Righty","RFF","20","hh",""],
+						["4,4,4","Toe Jam - Flamingo","RFS","14,10,10","hhh",""],
+						["4,4,f+4","Toe Jam - Righty","RFF","14,10,25","hhh",""],
+						["4,4,4,3","Blizzard Kicks","","14,10,10,10","hhhl",""],
+						["4,4,4,4","Hot Feet","RFF","14,10,10,20","hhhm",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Right Foot Forward Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["(F_B)","Lefty","","-","-",""],
+						["1,1","Migrane","","10,12","hm",""],
+						["2,1,1","Big Fists","","6,10,12","hhm",""],
+						["3","Teaser Trip","RFF","15","l",""],
+						["3,3","Teaser Trip - Wild Roundhouse","","15,40","lh","OSb"],
+						["3~4","Backlash","","36","h","OSb"],
+						["f+3","Cheap Shot","LFS","25","h",""],
+						[" = ~b"," = Retreat","","-","-","BT"],
+						[" = 4"," = Teaser Trip","","20","L",""],
+						["f,f+3","Ripoff","RFF","25","h","OSb"],
+						["b+3","Misdemeanor","","28","h","OSc"],
+						["b+4","Snap Spin Kick","RFF","32","h","OSb"],
+						["","Chainsaw Kick","RFF","15,20","hM",""],
+						["4~f","Chainsaw Flamingo","RFS","15","h","JG"],
+						["4,4","Double Hook","","15,27","hh",""],
+						["f+4","Right Flamingo Stance","RFS","-","-",""],
+						["f+4~4","Grand Theft","RFF","20","m","JG"],
+						["f,f+4","Pirouette Kick","","20","m",""],
+						["f,f+4,3","Screw Pirouette Kick","RFF","20,20","mh","GB"],
+						["(d/f,N_d/b,N)","Right Foot Forward Cancel","LFF","-","-","RC #1"],
+						["u/b,N","Right Foot Forward Cancel","LFF","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Left Flamingo Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["N","Lefty","","-","-",""],
+						["(u_d)","Side Step","LFS","-","-",""],
+						["f,f","Flamingo Steppin'","LFS","-","-",""],
+						["b,b","Flamingo Back Dash","LFS","-","-",""],
+						["1","Left Jab","","12","h",""],
+						["2","Right Back Hand","RFF","12","m",""],
+						["f+3","Left Snap Kick","RFF","18","m",""],
+						["b+3","Snap Spin Kick","","32","h","OSb"],
+						["(d_d/b)+3","Left Cutter","","12","L",""],
+						["3,3,3","Machine Gun Kicks","","12,10,25","mmh","JG"],
+						["3,3,4","Menace to Society","RFS","12,10,20","mmh",""],
+						["3,3,4,4","Bad Menace","RFF","12,10,20,15","mmhm",""],
+						["4","Famingo Hop Kick","RFS","28","h",""],
+						["(d_d/b)+4","Teaser Trip","","15","L","RC"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Right Flamingo Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["N","Righty","RFF","-","-",""],
+						["(u_d)","Side Step","RFS","-","-",""],
+						["f,f","Flamingo Steppin'","RFS","-","-",""],
+						["b,b","Flamingo Back Dash","RFS","-","-",""],
+						["1","Spin Back Fist","","12","m",""],
+						["2","Right Jab","RFF","12","h",""],
+						["3","Flamingo Hop Kick","LFS","25","h",""],
+						["(d_d/b)+3","Teaser Trip","","12","L","RC"],
+						["4","Super Right","RFF","20","m","FSc"],
+						["f+4","Right Snap Kick","","18","m",""],
+						["b+4","Snap Spin Kick","","32","h","OSb"],
+						["(d_d/b)+4","Right Cutter","","13","L",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d/b+3+4","Dynamite Heel","","40","[!]",""],
+						[" = b,b"," = Cancel","LFS","-","-",""],
+						["LFS 1+4","Power Blast","","80","!",""],
+						[" = b,b"," = Cancel","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["LFS 2,2,3,4,3,4,4,4,4,3","10","12,7,10,7,7,8,7,10,21,42","mhhLmmlhmh"],
+						["RFS 1,2,3,4,3,4,4,4,4,3","10","12,7,10,7,7,8,7,10,21,42","mhhLmmlhmh"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "jin",
+			"name": "Jin",
+			"fullname": "Jin Kazama",
+			"sex": "Male",
+			"origin": "Japan",
+			"fightingStyle": "Advanced Mishima Karate based on Shito-ryu karate combined with Kazama-style Traditional martial arts based on Koryu bujutsu",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Bitch Kicks","Front","10,20","1",""],
+						["2+4","Shoulder Reverse","Front","30","2",""],
+						["f,f+1+2","Stone Head","Front","33","1+2","#1"],
+						["d/f+2+3","Wrist Chuck Slam","Front","38","2",""],
+						["qcb+1+3","Complicated Wire","Front","35","1",""],
+						["(FC_d/b)+1+2","Ultimate Tackle","Front","5","System",""],
+						[" = 1,2,1,(2,1_1,2)"," = Ultimate Punches","","5,5,5,5,5","System",""],
+						[" = 2,1,2,(1,2_2,1)"," = Ultimate Punches","","5,5,5,5,5","System",""],
+						[" = 1,2,1,1+2"," = Punches - Cross Arm Lock","","5,5,5,25","System",""],
+						[" = 2,1,2,1+2"," = Punches - Cross Arm Lock","","5,5,5,25","System",""],
+						[" = 1+2"," = Cross Arm Lock","","25","System",""],
+						["(1+3_2+4)","Shoulder Flip","Left","12,19","1",""],
+						["(1+3_2+4)","Over the Limit","Right","40","2",""],
+						["(1+3_2+4)","Chicken Butcher","Back","60","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","6,10","hh",""],
+						[" = 4"," = Knee","","12","m",""],
+						["   = ~1+4,2","   = White Heron","","5,10,10","shh","#1"],
+						["     = 4","     = Crescent Kick","","21","m",""],
+						["     = d+4","     = Crescent Sweep","","14","L","JG"],
+						["1,1<2","Shining Fists","","6,8,18","hhm",""],
+						["1,2<2","Demon Slayer","","6,10,18","hhh",""],
+						["WS+1,2","Twin Pistons","","10,15","mm","JG"],
+						["(d/f+1,2_f+1+2,2)","Twin Lancer","","10,16","mm",""],
+						["f,N,d,d/f+1","Thunder Godfist","","29","m",""],
+						[" = 3"," = Mid Kick","","20","m",""],
+						[" = 4"," = Hell Sweep","","12"," L","JG"],
+						["1,2,3","Shoot the Works","","6,10,25","hhm","GB"],
+						[" = 4"," = Axe Kick","","30","m",""],
+						[" = f+4"," = Rising Kick","","10","m",""],
+						["1+4,2","White Heron","","5,10,10","shh",""],
+						[" = 4"," = Crescent Kick","","21","m",""],
+						[" = d+4"," = Crescent Sweep","","14","L","JG"],
+						["d/f+2","Upper","","15","m","SH JGc"],
+						["2,2","Demon Backhand Spin","","10,18","hh",""],
+						["b+2","Demon Backhand","","12","h",""],
+						["f+2","Overhead Shot","","18","m","GB KS"],
+						["WS+2","Uppercut","","18","m",""],
+						["f,f+2","Demon Paw","","27","m",""],
+						["SS+2","Tooth Fairy","","16","m","JG"],
+						["f,N,d,d/f+2","Wind Godfist","","25","h","JG #2"],
+						["f,N,d,d/f,2","Stagger Wind Godfist","","21","h","SH"],
+						["f,N,d~d/f+2","Electric Wind Godfist","","30","h","JG JGc"],
+						["b,f+2","Laser Blow","","18","m","DSc"],
+						["b,f+2<1<2","Laser Cannon","","18,14,24","mmm","FSc #4"],
+						["b,f+2<1<d+2","Laser Scraper","","18,14,15","mmm","JG FSc #4"],
+						["f,f+3","Split Axe Kick","","23","m","JG"],
+						["f+3","Spinning Roundhouse","","35","h",""],
+						["f,N,d,d/f,f,u/f+3","Crouch Dash Slash Kick","","30","m","GB"],
+						["(WR_f,f,f)+3","Leaping Slash Kick","","30","m","GB"],
+						["d+3+4","Can Can","","5,20","sh","JG"],
+						["f+4","Knee","","12","m",""],
+						["d/f+4,4","Tsunami Kick","","10,16","mm",""],
+						["(f,N,d,d/f,f_WS)+4,4","Tsunami Kick","","13,21","mm",""],
+						["f,N,d,D/F+4","Hell Sweep","","18","L","JG #5"],
+						[" = 4"," = Spinning Demon","","15","m",""],
+						["u/f+4,4,4,4","Spinning Demon","","25,15,12,25","hLLm",""],
+						["(4~3_u/f+4~3)","Demon Scissors","","25","m",""],
+						["b+1+2","Lightning Force","","0","-","#3"],
+						["b+(1+3_2+4)","High and Mid Attack Reversal","","Varies","-",""],
+						["(u/b_u_u/f)+2+4","Corpse Splitter","","24_30_34","M",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+1+4","Lightning Godfist","","40","!",""],
+						["B+1+4","Lightning Screw Godfist","","80","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["+2,4,4,4,4,2,1+4,2,1,3","11","12,10,10,8,6,6,5,5,5,21,12","hhhLmmlhhmm"],
+						["b+2,4,4,4,4,2,1+4,2,1,4","11","12,10,10,8,6,6,5,5,5,21,20","hhhLmmlhhmL"],
+						["b+2,4,4,4,4,2,1+4,2,d+3+4","11","12,10,10,8,6,6,5,5,5,21,21","hhhLmmlhhlh"],
+						["f,f,2,1,2,2,3,4,4,1,2,1","10","7,8,6,7,6,11,5,5,8,30","hhhhmmLhmm"],
+						["f,f,2,1,2,2,3,4,4,3,2,1","10","7,8,6,7,6,11,5,5,25,30","hhhhmmLLm!"],
+						["3,2,4,3,1+4,2,2,1,2","10","15,6,10,10,7,5,7,10,15,30","hhmhlhhmmm"],
+						["f,f,2,1,4,4,2,4,3,2,1","9","7,8,7,10,5,7,5,25,30","hhmmlmLm!"],
+						["3,2,4,3,1+4,2,1,3","9","15,6,10,10,7,5,7,21,20","hhmhlhhmm"],
+						["3,2,4,3,1+4,2,1,4","9","15,6,10,10,7,5,7,21,12","hhmhlhhmL"],
+						["b+2,4,2,1,2","5","12,10,10,15,30","hhmmm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "julia",
+			"name": "Julia",
+			"fullname": "Julia Chang",
+			"sex": "Female",
+			"origin": "USA",
+			"fightingStyle": "Various Chinese Martial Arts",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Death Valley Bomb","Front","35","1",""],
+						["2+4","Fisherman Suplex","Front","30","2",""],
+						["d/f+1+2","Arm Lock Suplex","Front","37","1+2",""],
+						["d,D/B+1+3","Waist Suplex","Front","30","1",""],
+						["FC,d/b,d,d/b+1+2","Cross Arm Lock","Front","45","1+2",""],
+						["qcb,f+2","Mad Axes","Front","14,14,14","1+2",""],
+						["(1+3_2+4)","Running Bulldog","Left","40","1",""],
+						["(1+3_2+4)","Twisted Sister","Right","45","2",""],
+						["(1+3_2+4)","German Suplex","Back","50","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2","Twin Arrow","","25","m","GB"],
+						["f+1","Flash Uppercut","","15","m","JG"],
+						["(WR_d,d/f)+1","Flash Punch","","14","m",""],
+						[" = <2"," = Flash Elbow","","21","m","FSc"],
+						["1~1","G-Clef - Club Fist","","10,5","hm",""],
+						[" = 1"," = Flash Uppercut","","21","m","JG"],
+						[" = 4,3"," = Bow & Arrow","","12,15","Lm",""],
+						["d/f+1","Club Fist","","8","m",""],
+						[" = 1"," = Flash Uppercut","","21","m","JG"],
+						[" = 4,3"," = Bow & Arrow","","12,15","Lm",""],
+						["1~2","G-Clef - Gut Punch","","5,8","hm","#5"],
+						[" = ~1"," = Skyscraper Cannon","","21","m","CH #4"],
+						[" = 3"," = Low Kick","","10","L","RC"],
+						[" = 4"," = High Kick","","20","h",""],
+						["f,f+1","Party Crasher","","10","m",""],
+						[" = <4"," = Skyscraper Kick","","15","m","JG"],
+						["f+1~2","Palm Explosion","","21","m","FSc"],
+						["1+4,3","Club Fist - Bow & Arrow","","12,12,15","mLm",""],
+						["d/f+2","Gut Punch","","10","m",""],
+						[" = 1"," = Skyscraper Cannon","","21","m","JG #3"],
+						[" = 4"," = High Kick","","20","h",""],
+						[" = 3"," = Low Kick","","10","L","RC"],
+						["(d+2~N+3_2+3),1","Ultimate Cannon","","10,9,25","smm","JG"],
+						["(WR_FC,d/f)+2","Flash Elbow","","20","m","FSc"],
+						["(b+2_2~b)","Arm Whip","","12","h","OB #1"],
+						["(WS+2_3~2)","Tequila Sunrise","","15","m",""],
+						[" = 2"," = Flash Elbow","","22","m",""],
+						[" = 1,1"," = Club Fist - Flash Uppercut","","5,21","mm","JG"],
+						[" = 1,4,3"," = Club Fist - Bow & Arrow","","5,12,15","mLm",""],
+						[" = 4"," = Razor Sweep","","12","L","RC"],
+						["   = 4","   = High Kick","","23","h",""],
+						["   = d+4","   = Low Kick","","10","L","RC"],
+						["   = 1","   = Razor's Edge","","21","m","JG"],
+						["u/f+3+4","Earthquale Stomp","","35","M",""],
+						["3+4","Counter Clockwise Spin","","-","-","#2"],
+						["d+4","Razor Sweep","","10","L","RC"],
+						[" = N+4"," = High Kick","","23","h",""],
+						[" = d+4"," = Low Kick","","10","L","RC"],
+						[" = 1"," = Razor's Edge","","21","m","JG"],
+						["4,4","Spinning Razor Kicks","","20,12","hL","RC"],
+						[" = 4"," = High Kick","","23","h",""],
+						[" = d+4"," = Low Kick","","10","L","RC"],
+						[" = 1"," = Razor's Edge","","21","m","JG"],
+						["WS+4","Skyscraper Kick","","15","m",""],
+						["FC,d/f+4,3","Bow & Arrow","","12,15","Lm",""],
+						["(FC_d)+(1+3_2+4)","Low Parry","","-","-",""],
+						["2+3+4","Wave Taunt","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["f+1+4","Heaven Cannon","","50","!","JG"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["2,1,1,2,3,3,3,4,4,1","10","8,6,6,6,6,6,6,7,8,25","hmmhLmhhLm"],
+						["2,1,1,2,3,3,2,3,2,1","10","8,6,6,6,6,6,7,5,5,30","hmmhLmmLm!"],
+						["2,1,1,2,3,3,2,1,4,3","10","8,6,6,6,6,67,7,10,25","hmmhLmmmLm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "king",
+			"name": "King",
+			"fullname": "King",
+			"sex": "Male",
+			"origin": "Mexico",
+			"fightingStyle": "Pro Wrestling",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Winding Nut","Front","35"," 1",""],
+						["2+4","Suplex","Front","35"," 2",""],
+						["D,d/b,d,d/b+1+2","DDT","Front","55"," 1+2",""],
+						["d/b,f+2","Tombstone Piledriver","Front","58"," 2",""],
+						["f,hcf+1","Giant Swing","Front","70"," 1","#2"],
+						["d/b+1+2","Figure 4 Leg Lock","Front","32"," 1+2_3+4","#4"],
+						["d/f+2+3","Coconut Crush","Front","30"," 2",""],
+						["qcb+1+2","T-Bone Power Bomb","Front","50"," 1+2",""],
+						["b+1+2","Irish Whip","Front","0","None",""],
+						[" = 1+3"," = Feint","","0"," 1",""],
+						[" = 3+4"," = Ground Smash","","10"," 3+4",""],
+						[" = 2+4"," = Quick Slam","","8"," 2",""],
+						[" = 1+2"," = Turn Around Feint","","0"," 1+2",""],
+						["(FC_d/b)+1+2","Ultimate Tackle","Front","5","System",""],
+						[" = 1,2,1,(2,1_1,2)"," = Ultimate Punches","","5,5,5,5,5","System",""],
+						[" = 2,1,2,(1,2_2,1)"," = Ultimate Punches","","5,5,5,5,5","System",""],
+						[" = (1,2,1_2,1,2)"," = Ultimate Punches","","5,5,5","System",""],
+						["   = 1+2,1+2","   = Cross Arm Lock - Arm Twist","","25,10","System",""],
+						["   = 3+4","   = Leg Cross Hold","","25","System",""],
+						["     = 1+2","     = Ultimate S.T.F","","20,20","None",""],
+						[" = 1+2,1+2"," = Cross Arm Lock - Arm Twist","","25,10","System",""],
+						[" = 3+4"," = Leg Cross Hold","","25","System",""],
+						["   = 1+2","   = Ultimate S.T.F","","20,20","None",""],
+						["f,f,N+2","Counter Hit Stomach Smash","Front","6","f","#3"],
+						[" = 1+2"," = Hi-Jack Back Breaker","","30","1+2",""],
+						[" = 1+2,u,d,N+3+4"," = Jaguar Driver","","60","3+4",""],
+						["d/f+3+4","Frankensteiner","Front","45","None","#1"],
+						["d+(1+3_2+4)","Jumping Power Bomb","Crouch","45","1+2",""],
+						["(1+3_2+4)","Argentine Back Breaker","Left","20,20","1",""],
+						["(1+3_2+4)","Knee Crusher","Right","42","2",""],
+						["2+4","Half Boston Crab","Back","60","None",""],
+						["1+3","Cobra Twist","Back","60","None",""],
+						["b,f+1+2","Stretch Buster","Back","75","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Ground Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["d/b+(1+3_2+4)","Turn Over","KND L","0","1",""],
+						["d/b+(1+3_2+4)","Turn Over","KND R","0","2",""],
+						["d/b+1+3","Mini Swing","KND F","30","1",""],
+						["d/b+2+4","Crotch Dive","KND F","33","2",""],
+						["D/B+2+4","Figure 4 Lock","KND F","33","1+2",""],
+						["d/b+(1+3_2+4)","Shoulder Cracker","KND H","28","1+2",""],
+						["d/b+(1+3_2+4)","Crucifixion","FCD F","30","3+4",""],
+						["d/b+(1+3_2+4)","Chicken Wing","FCD H","32","1+2",""],
+						["d/b+(1+3_2+4)","Bow Break","FCD R","37","2",""],
+						["d/b+(1+3_2+4)","Camel Clutch","FCD L","35","1",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Multi Throw Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["f,N,d,d/f+2+3","Standing Achilles Hold","Front","30","2",""],
+						[" = 1,2,3,1+2"," = S.T.F","","35","1",""],
+						[" = 1+2,3,1,1+3"," = Scorpion Death Lock","","40","2",""],
+						[" = 1+2,1,3,1+2"," = Indian Death Lock","","30","1+2",""],
+						["   = 1,3,4,1+2,3+4","   = Romero Special","","50","None",""],
+						["qcf+1","Jaguar Driver","Front","25","1_3+4","#4"],
+						[" = 1+2"," = Double Arm Face Buster","","30","1+2","#3"],
+						[" = 1+2,3,4,1+2"," = Boston Crab","","25","None",""],
+						["f,N,d,d/f+1+4","Single Hyper Arm Extension","Front","20","1",""],
+						[" = 2,1,1+2+3"," = Chicken Face Wing Lock","","25","1+2",""],
+						["   = 1+3,3+4,2+4,1+2,1+2+3","   = Rolling Death Cradle","","75","2",""],
+						["   = 2,1,3,1+2+4,1+2+4","   = Dragon Sleeper","","30","1",""],
+						[" = 1+2,1+2"," = Double Hyper Arm Extension","","10,15","1",""],
+						[" = 1+2,4,2+4"," = Reverse DDT","","20","2",""],
+						["   = 4,3,4,3+4,1+2","   = Arm Crucifixion","","25","None",""],
+						["D/F+(1+3_2+4)","Reverse Arm Clutch","Front","25","1_2","#1"],
+						[" = 2,1,1+2"," = Back Drop","","18","1_2","#1"],
+						["   = 2,2,1+2","   = Cannonball","","18","2",""],
+						["     = 1,2,3+4","     = Power Bomb","","22","1",""],
+						["       = 3,1,2,3+4,1+2+3+4","       = T-Bone Power Bomb","","35","2",""],
+						["       = 2,1,3,4","       = Giant Swing","","27","1",""],
+						["     = 3+4,1+2,1+2+4","     = Manhattan Drop","","17","2",""],
+						["       = 1,2,3+4,1+2","       = Super Freak","","20","None",""],
+						["         = 3,1,2,3+4,1+2+3+4","          = T-Bone Power Bomb","","35","2",""],
+						["         = 2,1,3,4","          = Giant Swing","","27","1",""],
+						["     = 3+4,1+2","     = German Suplex","","18","None",""],
+						["       = 1,2,3+4","       = Power Bomb","","22","None",""],
+						["         = 3,1,2,3+4,1+2+3+4","         = T-Bone Power Bomb","","35","2",""],
+						["         = 2,1,3,4","         = Giant Swing","","27","1",""],
+						["D/F+1+2","Full Nelson","Front","28","1+2",""],
+						["SS+2+4","Full Nelson","Front","28","1_2","#2"],
+						["d/f,d/f+2+4","Full Nelson","Crouch","28","2",""],
+						[" = 2,2,1+2"," = Cannonball","","18","None",""],
+						["   = 1,2,3+4","   = Power Bomb","","22","1",""],
+						["     = 3,1,2,3+4,1+2+3+4","     = T-Bone Power Bomb","","35","2",""],
+						["     = 2,1,3,4","     = Giant Swing","","27","1",""],
+						["   = 3+4,1+2,1+2+4","   = Manhattan Drop","","17","2",""],
+						["     = 1,2,3+4,1+2","     = Super Freak","","20","None",""],
+						["       = 3,1,2,3+4,1+2+3+4","       = T-Bone Power Bomb","","35","1",""],
+						["       = 2,1,3,4","       = Giant Swing","","27","2",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","6,15","hh",""],
+						["1,2,1","Double Punch - Upper","","6,15,10","hhm",""],
+						["d/f+1","Elbow Sting","","15","m","GB"],
+						["d+1,N+2","Low Jab - Upper","","5,15","sm",""],
+						["FC,d/f+1","Ankle Smash","","21","L","RC"],
+						["1+2","Head Spinner","","15","m","BT"],
+						[" = 1"," = Hand Knife","","21","m",""],
+						["f,N,d,d/f+1+2","Bouncing Knuckle Bomb","","28","m","BNc"],
+						["u/f+1+2","Knuckle Bomb","","35","m",""],
+						["f,f,N+1+2","Lay Off Push","","0","!",""],
+						["f,f+1+2","Flying Cross Chop","","15","hL","GB #4"],
+						["d+1+2","Elbow Drop","","25","M",""],
+						["WS+2","Upper","","20","m",""],
+						["2,1","Straight Right - Elbow","","10,12","hm",""],
+						["d/f+2","Side Swipe","","10","m",""],
+						["FC,d/f+2","Dynamite Upper","","20","m","JG"],
+						["f,f+2","K's Flicker","","20","m","JGc"],
+						["f,f,N+2","Stomach Smash","","6","L","DSc"],
+						[" = 1+2"," = Hi-Jack Back Breaker","","30","Throw","#1"],
+						[" = 1+2,u,d,N+3+4"," = Jaguar Driver","","60","Throw","#1"],
+						["SS+2","Black Arrow","","30","h","DSc"],
+						["f+2+3","Black Shoulder","","40","m","GB"],
+						["(u/b_u_u/f)+2+4","Atomic Elbow Drop","","35","M",""],
+						["f,f+2+3","Diving Body Press","","30","M",""],
+						["d/f+3","Rib Buster","","17","m",""],
+						["(3+4_f+3+4)","Exploder","","25","h","GB"],
+						["(WR_f,f,f)+3+4","Satellite Exploder","","40","h","GB"],
+						["SS+3+4","Deadly Boomerang","","54","h","GB"],
+						["(FC,d/f_d)+3+4","Ali Kick","","17","L","RC"],
+						[" = 2"," = Spin Upper","","10","m",""],
+						[" = 4,2"," = Ali Kick - Spin Upper","","7,10","Lm","CH #5"],
+						[" = 4,4"," = Ali Kicks","","7,7","LL","RC"],
+						["   = 2","   = Spin Upper","","10","m","CH #5"],
+						["   = 4,4","   = Extended Ali Kicks","","4,3","LL","RC #3"],
+						["d/f+3+4","Frankensteiner","","15","m","#2"],
+						["d/f+4","Knee Buster","","15","l",""],
+						["b+4","Disgrace Kick","","20","h","BT"],
+						["f,f+4","Konvict Kick","","30","m",""],
+						["b+(1+3_2+4)","Leg Screw Right Kick Reversal","","40","-",""],
+						["b+(1+3_2+4)","Double Heel Hold Left Kick Reversal","","40","-",""],
+						["d+(1+4_2+3)","Low Parry","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["f+1+2","Jaguar Lariat","","50","",""],
+						["BT 1+2","Atomic Blaster","","50","",""],
+						["(1+4_f+1+4)","Moonsault Body Press","","25","{!}","#1"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["1,2,1,1,2,4,4,4,1,1","10","6,15,10,6,6,5,5,5,7,23","hhmmhLLLmM"],
+						["1,2,1,1,2,4,4,4,1,3","10","6,15,10,6,6,5,5,5,7,30","hhmmhLLLmh"],
+						["1,2,1,1,3,3,4,4,1,1","10","6,15,10,6,8,8,5,5,7,23","hhmmhmLLmM"],
+						["1,2,1,1,3,3,4,4,1,3","10","6,15,10,6,8,8,5,5,7,30","hhmmhmLLmh"],
+						["1,2,1,1,3,3,4,3,2,1+2","10","6,15,10,6,8,10,5,5,6,30","hhmmhmLLl Throw"],
+						["f+2,1,1,2,4,4,4,1,1","9","12,10,6,6,5,5,5,7,23","hmmhLLLmM"],
+						["f+2,1,1,2,4,4,4,1,3","9","12,10,6,6,5,5,5,7,30","hmmhLLLmh"],
+						["f+2,1,1,3,3,4,4,1,1","9","12,10,6,8,8,5,5,7,23","hmmhmLLmM"],
+						["f+2,1,1,3,3,4,4,1,3","9","12,10,6,8,8,5,5,7,30","hmmhmLLmh"],
+						["f+2,1,1,3,3,4,3,2,1+2","9","12,10,6,8,10,5,5,6,30","hmmhmLLl Throw"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "kuma",
+			"name": "Kuma",
+			"fullname": "Kuma",
+			"sex": "Non-Human",
+			"origin": "Japan",
+			"fightingStyle": "Heihachi Style Advanced Kuma Shin Ken",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Bear Bite","Front","30","1",""],
+						["2+4","Bear Hug","Front","10,25","2",""],
+						["f,f+1+4","Stone Head","Front","35","1+2",""],
+						["hcb,f+1+2","Circus Roll","Front","60","1+2",""],
+						["(1+3_2+4)","Choke Slam","Left","10,15,25","1",""],
+						["(1+3_2+4)","Rag Doll","Right","40","2",""],
+						["(1+3_2+4)","Bear Swing","Back","70","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,1,1","Bear Hammer","","18,15,18","hhm",""],
+						["f+1,1,1","Bear Heaven Cannon","","10,8,14","hmm","JG"],
+						["D/F+1,2,1,2","Bear Upper Rush","","10,15,10,15","mmmm","JGc RC #1"],
+						["D/F,1,2,1","Quick Upper Rush","","15,12,15","mmm","JGc RC #1"],
+						["WS+1,2","Grizzly Upper - Grizzly Claw","","12,27","mm",""],
+						["FC,d/f+1,2,1","Grizzly Windmill","","12,15,15","mmm","GB"],
+						[" = 1"," = Windmill Backhand","","30","h","CF GB"],
+						["FC+1,1,1,2","Bear Rush","","12,8,12,12","LLmm","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["(D/F,1,2_FC,D/F+1,2)","Hammer Rush","","15,12","mm","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["1+2,1+2","Bear Knuckle - Claw Upper","","21,22","mm",""],
+						["WS+1+2,1+2","Claw Upper - Bear Knuckle","","21,22","mm","JG"],
+						["f+1+2","Grizzly Scissors","","25","m","CF"],
+						["f,f+2","Demon Bear Fist","","22","m","JG"],
+						["2,1,2","Punch - Elbow - Upper","","12,21,20","hmm","JG"],
+						["D/F+2,1,2,1","Bear Upper Rush","","10,15,12,15","mmmm","JG"],
+						["(D/F,2_FC,d/f+2)","Short Hammer Rush","","10","m","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["(D/F,2,1,2_FC,D/F+2,1,2)","Quick Uppercut Rush","","15,15,10","mmm","JG #1 RC"],
+						["b,d/b,d,D/F+2","Grizzly Claw","","33","m","RC"],
+						["b,f+2+3","Salmon Hunter","","60","L",""],
+						["u/f+3+4","Pancake Press","","26","M","#2"],
+						["(3+4_d+3+4)","Sit Down","","-","-",""],
+						[" = B"," = Roll Back","","-","-",""],
+						[" = F"," = Roll Forward","","-","-",""],
+						[" = (1,2,1,2_2,1,2,1)"," = Sitting Claws","","10,10,10,10","llll",""],
+						["KND d+1+2","Spring Claw - Sit Down","","12","m",""],
+						[" = (1,2,1,2_2,1,2,1)","= Sitting Claws","","10,10,10,10","llll",""],
+						["1+3+4","Dancing Taunt","","-","-",""],
+						["D+4","Turn Around Dance","","20,60","LL","#3"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+1+2","Deadly Claw","","35","!",""],
+						[" = f,d/f,d,d/b,b,u/b,u,U/F"," = Rolling Bear","","40","m","#1"],
+						["b,b+2+3+4","Fatal Wind","","200","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "lei",
+			"name": "Lei",
+			"fullname": "Lei Wulong",
+			"sex": "Male",
+			"origin": "China",
+			"fightingStyle": "5 Form Kung Fu and Zui Quan (Drunken Fist)",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Sky Kick","Front","30","1",""],
+						["2+4","Sleeper Hold","Front","30","2",""],
+						["f,f+1+2","Thai Trip","Front","33","1+2",""],
+						["u/f+1+2","Dragon Falls","Front","35","1+2",""],
+						["(DGN 1_SNA 1+3)","Out of Control","Front","33","1",""],
+						[" = 1+2"," = Tiger Sip","","-","-","#1"],
+						["(1+3_2+4)","Sailboat Strech","Left","40","1",""],
+						["(1+3_2+4)","Closing Fan","Right","40","2",""],
+						["(1+3_2+4)","Booby Trap","Back","50","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["f,N+1 [u_d]","Razor Rush [SNA]","","10","m","#5"],
+						["f,N+1<2 [u_d]","Razor Rush [DGN]","","10,8","mm","#5"],
+						["f,N+1<2<1 [u_d]","Razor Rush [PAN]","","10,8,8","mmm","#5"],
+						["f,N+1<2<1<2 [u_d]","Razor Rush [TGR]","","10,8,8,8","mmmm","#5"],
+						[" = 3"," = Low Kick","","15","l",""],
+						[" = <4 [u_d]"," = Crane Kick [CRA]","","15","m",""],
+						["1+2","Hook Punch","BT","18","h",""],
+						[" = ~2"," = Spiral Upper","","20","m","JG"],
+						["b+1+2","Cannonball","","30","m",""],
+						["(u_u/f)+2","Falling Tree","PLD","15","M",""],
+						["f,N+2,1,2,1","Guard Melting Punches","BT","0,0,25,30","hhmm","#1"],
+						["3,3","Crescent Trip","BT","28,20","hL",""],
+						["3~4 [d]","Tornado Kick [KND]","BT","30","m",""],
+						[" = 2"," = Tornado Upper","","20","m","JG"],
+						["3~4,U [d]","Triple Tornado [KND]","BT","30,30,30","mmm","#3"],
+						["f+3~4 [d]","Axis Shift Tornado Kick [KND]","BT","30","m",""],
+						[" = 2"," = Tornado Upper","","20","m","JG"],
+						["f+3~4,U [d]","Axis Shift Tornado Kick [KND]","BT","30,30,30","mmm",""],
+						["f,f,f+3","Leaping Slash Kick","","30","m","GB"],
+						["f,N+3,4","Razor Kick - Mid Stun Kick","","35,20","hm","GB"],
+						["f,N+3,d+4","Razor Kick - Trip Kick","","35,10","hL","GB"],
+						["4~4","Ankle Kick","KND","7","L",""],
+						[" = 3"," = Ankle Drop","KND","7","L",""],
+						[" = 3,3"," = Lift Up Cannon","FCD","7,7","Lm","JG"],
+						["4~3","Clean Sweep","FCD","25","m",""],
+						["f,N+4,1,2,3","Rush Combo - Razor Kick","","15,12,5,17","hmmh","GB"],
+						[" = 4"," = Mid Stun Kick","","20","m",""],
+						[" = d+4"," = Trip Kick","","10","L",""],
+						["f+4","Beating Kick","","35","h",""],
+						[" = 2,1<2"," = Rush","","12,12,8","mmm",""],
+						["   = 3","   = Low Kick","","15","l",""],
+						["   = <4 [u_d]","   = Crane Kick [CRA]","","15","m",""],
+						["d/b+4 [u_d]","Rave Sweep [SNA]","","10","L","JG"],
+						[" = 4"," = Rave Spin","","25","h",""],
+						["d+1+2","Slide Postion","SLD","-","-",""],
+						["(SS_f)+(1+4_2+3)","Art of Snake Stance","SNA","-","-",""],
+						["f+3+4","Drunken Master Punch Parry","DRU","-","-","#4"],
+						[" = 1"," = Drunken Tiger Lash","","25","m",""],
+						[" = 3+4"," = Donkey Kick","FCD","15","L",""],
+						["d+3+4","Play Dead Position","PLD","-","-",""],
+						["b+1+4","Art of Phoenix Illusion","AOF","-","-",""],
+						["b+3+4","Turn Around","BT","-","-",""],
+						[" = ~f"," = Cancel","","-","-",""],
+						["(d_d/b)+(1+3_2+4)","Low Parry","","-","-",""],
+						["SLD 1","Lei on Back","PLD","-","-",""],
+						["SLD 4~3","Sliding Kick","KND","18","L",""],
+						["FCD 1","Lei on Back","KND","-","-",""],
+						["FCD 3~4","Rave Sweep","PLD","10","L","JG"],
+						[" = 4"," = Rave Spin","","25","h",""],
+						["FCD 4~3","Go to Sleep","FCD","15","m",""],
+						["KND d+1","Lei on Back","FCD","-","-",""],
+						["KND 3+4","Hop Up","","20","h",""],
+						["PLD 3","Rave Sweep","","7","L","JG"],
+						[" = 4"," = Rave Spin","","21","h",""],
+						["PLD 3+4","Kangaroo Kick","","21","m","JG"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Back Turned Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1","Spinning Back Blow","BT","12","h",""],
+						["(FC_d)+1","Low Back Spins","BT","8","l","JG"],
+						["2","Spiral Upper","","20","m","JG"],
+						["(u_u/f)+2","Falling Tree","PLD","15","M",""],
+						["3+4,3+4,3+4","Flip Flop","BT","15,15,15","MMM",""],
+						["4","Reverse Kick","","15","m",""],
+						["(FC_d)+4 [u_d]","Rave Sweep [SNA]","","10","L",""],
+						[" = 4"," = Rave Spin","","35","h",""],
+						["u/f+4","Reverse Hop Kick","","21","h","JG"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Art Of Crane",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1","Crane's Bill","","27","m","#1"],
+						["2","Wing of Crane","BT","30","h","OB"],
+						["3<4<2<3","Crane Dance","","21,10,10,15","mlmm","JG"],
+						["4","Crane Kick","","20","l",""],
+						["SSL","Art of Panther","PAN","-","-",""],
+						["SSR","Art of Snake","SNA","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Art Of Tiger",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["F","Automatic High Parry","","-","-",""],
+						["1","Tiger Strike","","25","m","GB BN"],
+						["2","Tiger Claw","","26","m","SLDc KSco"],
+						["3","Tiger Kick","","32","h",""],
+						[" = 1 [u_d]"," = Razor Rush [SNA]","","10","m",""],
+						[" = 1<2 [u_d]"," = Razor Rush [DGN]","","10,8","mm",""],
+						[" = 1<2<1 [u_d]"," = Razor Rush [PAN]","","10,8,8","mmm",""],
+						[" = 1<2<1<2 [u_d]"," = Razor Rush [TGR]","","10,8,8,8","mmmm",""],
+						["   = 3","   = Low Kick","","15","l",""],
+						["   = <4 [u_d]","   = Crane Kick [CRA]","","15","m",""],
+						["4","Tiger Tail","","20","L","RC JG"],
+						["SSL","Art of Snake","SNA","-","-",""],
+						["SSR","Art of Dragon","DGN","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Art Of Panther",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["F","Automatic Low Parry","","-","-",""],
+						["1_1~2","Panther Scratch","","16,20","l_l h",""],
+						["2","Panther Paw","","25","M","JG"],
+						["2,1,2,1","Guard Melting Punches","","0,12,25,30","hhmm","JG #1"],
+						["3 [~B]","Panther Tail [Art of Phoenix]","","18","L",""],
+						["4","Beating Kick","","26","h","CSc"],
+						[" = 2,1<2"," = Rush","","12,12,8","mmm",""],
+						["   = 3","   = Low Kick","","15","l",""],
+						["   = <4 [u_d]","   = Crane Kick [CRA]","","15","m",""],
+						["SSL","Art of Snake","SNA","-","-",""],
+						["SSR","Art of Crane","CRA","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Art Of Dragon",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2 [~F]","Dragon Spark - [TGR]","","25","m","GB"],
+						["2 [~F]","Dragon Roar - [TGR]","","20","m","JGc GB"],
+						["3,3","Crescent Trip","BT","20,35","hL",""],
+						["4,1,2,3","Rush Combo - Razor Kick","","15,12,5,17","hmmh","GB"],
+						[" = 4"," = Mid Stun Kick","","20","m",""],
+						[" = d+4"," = Trip Kick","","10","L",""],
+						["SSL","Art of Tiger","TGR","-","-",""],
+						["SSR","Art of Snake","SNA","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Art Of Snake",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1~1~1~1~1~1 [~F]","Rushing Snake [SNA]","","13,10,8,6,5,5","hhhhhh","#1"],
+						["2 [~F]","Single Snake Bite [DGN]","","15","m","FSc"],
+						["2,2 [~F]","Double Snake Bite [DGN]","","15,10","mm",""],
+						[" = 4"," = Ankle Kick","KND","7","L",""],
+						[" = 4,3"," = Ankle Drop","KND","7,7","LL",""],
+						[" = 4,3,3"," = Lift Up Cannon","FCD","7,7,35","LLm","JG"],
+						["2,2,2 [~F]","Triple Snake Bite [PAN]","","15,10,15","mml",""],
+						["3","Rattle Snake","FCD","21","m",""],
+						["4","Snake Kick","SNA","11","l",""],
+						["SSL","Art of Dragon","DGN","-","-",""],
+						["SSR","Art of Panther","PAN","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["AOP [3,3,3,3],4","[Hopping Kicks] - Phoenix Strike","","[15,15,15,15],90","[mmmm]!","#1"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["1,2,1,3+4,2,1,4,1,2,3","10","5,8,7,8,6,6,10,6,6,30","hhlMmmhmmh"],
+						["1,2,1,3+4,2,1,4,1,4,4","10","5,8,7,8,6,6,10,6,7,35","hhlMmmhmLh"],
+						["1,2,1,3+4,3+4,3+4,1,1,2","9","5,8,7,8,9,10,11,12,21","hhlMMMllm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "ling",
+			"name": "Xiaoyu",
+			"fullname": "Ling Xiaoyu",
+			"sex": "Female",
+			"origin": "China",
+			"fightingStyle": "Various Chinese Martial Arts",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Jade","Front","10,20","1",""],
+						["2+4","Ruby","Front","30","2",""],
+						["qcb+2","Dislocator","Front","35","2",""],
+						["f+2~1","Human Hurdle","Front","4","1+2","RDS #2"],
+						["RDS f,f+3+4","Neck Squeeze Slap","Any","17,30","None","#1"],
+						["RDS f,f+(1+3_2+4)","Hop 'n Throw","Any","Varies","1_2","#3"],
+						["AOP (1+3_2+4) [~D]","Cradle Throw [Cancel]","Front","Varies","1_2","#3"],
+						["(1+3_2+4)","Arm Flip","Left","45","1",""],
+						["(1+3_2+4)","Dump the Bucket","Right","38","2",""],
+						["(1+3_2+4)","Crank Up","Back","50","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Bayonet","","4,7","hh",""],
+						["1,d+2","Bayonet Mc Twist","","4,10","hm",""],
+						["d/f+1","Belly Chop","RDS","10","m",""],
+						["D/F+1","Alternate Belly Chop","","10","m",""],
+						["d/b+1","Storming Flower","","25","m","#2"],
+						["u+1","Single Fan","RDS","5","m",""],
+						["U+1","Alternate Single Fan","","5","m",""],
+						["b+(1_2)","Great Wall","","10","m",""],
+						["d+1","Flappng Wings","","7,7,7","mMM","RC"],
+						["D+1","Alternate Flapping Wings","AOP","7,7,7","mMM",""],
+						["f+1+2","Cartwheel Dodge","","-","-",""],
+						["u+1+2","Double Fan","","5,8","mm","RC GB"],
+						[" = 2"," = Hydrangea","","12","m",""],
+						[" = 2,1"," = Fortune Cookie","","12,25","mm",""],
+						[" = 3+4"," = Ginger Snap","RDS","-","-",""],
+						["f,f+1+2,1+2","X Marks the Spot","","12,27","mm","BNc GB #3"],
+						["2,1","April Shower - Belly Chop","RDS","8,10","hm",""],
+						["2,D/F+1","April Shower - Alternare Belly Chop","","8,10","hm",""],
+						["WS+2","Sun Flower [tag]","RDS","12","m","JG"],
+						["WS+2~F","Sun Flower","","12","m","JG"],
+						["d/f+2","Butter the Bread","","15","m","SH"],
+						["FC,D/F+2","Shady Lotus","RDS","10","l",""],
+						["FC,d/f+2,1","Lotus Twist","","10,15","ll","RC"],
+						["d/f+3","Punt Kick","","17","m",""],
+						["f+3","Cloud Kick","","25","h",""],
+						["d/b+3","Guard Breaker","","0","!","GB"],
+						["f,f+3","Raccoon Swing","RDS","13","m",""],
+						["D+3,2,1,4","Fire Dance","","8,6,6,12","Lhhm","JG"],
+						["(3+4_d+3+4)","Spinner Dodge","","-","-",""],
+						["f+3+4","Dive Roll","","-","-","#4"],
+						["f,f+3+4","Front Layout","","25","M","#4"],
+						["d+1+2","Phoenix Stance Starter","AOP","-","-",""],
+						["b+3+4","Rain Dance Starter","RDS","-","-",""],
+						["u,u/b","Evasive Backflip","","-","-",""],
+						["1+4","High Parry","","-","-",""],
+						["(d_d/b)+1+4","Low Parry","","-","-",""],
+						["1+3+4","False Salute Taunt","","0","!",""],
+						["2+3+4","Greetings Taunt","","-","-",""],
+						["FC,d/b+3+4","Crouching Rain Dance Starter","RDS","-","-",""],
+						[" = 2"," = Spin Sticker","","25","m","#1"],
+						["b+1+2","Hypnotist Walk","","-","-",""],
+						["f,f+4","Step Kick","","25","m","MSc"],
+						["d/b+4","Nut Cracker","","10","L","KS SLDc"],
+						["d/f+4","Toe Kick","","11","m",""],
+						["WS+4","Sky Scraper Kick","","14","m",""],
+						["u/f+4","Cyanide","","25","m","JGc"],
+						["FC,d/f+4","Flower Bed","AOP","6","L",""],
+						["FC,d/f+4,4","Flower Garden","","6,16","LL","RC"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Rain Dance Art",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d+1+2","Art of Phoenix Stance","AOP","-","-",""],
+						["2","Reverse Slap","RDS","10","h",""],
+						["2,1,4","Dark & Stormy","","10,10,15","hhm","JG #1"],
+						["f,f+3","Pig Leg","RDS","20","M",""],
+						["d+3","Back Circle Breaker","RDS","15","L","FCDc"],
+						["D+3","Alternate Circle Breaker","","15","L","FCDc"],
+						["f,f+3+4","Reverse Front Layout","","17","M",""],
+						["(3+4_d+3+4)","Spinner Dodge","","-","-",""],
+						["u+3+4","Spin Cyclone","RDS","-","-",""],
+						["f+3+4","California Roll","RDS","-","-",""],
+						[" = ~3+4"," = Reverse Kangaroo Kick","RDS","25","m","JG"],
+						["4","Juggle Mistrust","","16","m","JG"],
+						["1+3+4","False Salute Taunt","RDS","0","h",""],
+						["2+3+4","Greetings Taunt","RDS","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Art Of Phoenix",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d","Butterfly","","-","-",""],
+						["1","Handfull","","7","m","RC"],
+						["2","Handfull","","12","m",""],
+						["~1+2","Quick Wave Crest","","14","m","JG"],
+						["d+1+2","Heavy Wave Crest","","25","m","JG"],
+						["1+2","Power Wave Crest","","16","m","JG"],
+						["f+1+2","Rain Dance Stance","RDS","-","-",""],
+						["3","Knee Stabber","AOP","15","L",""],
+						["(u/b_u_u/f)+3","Barrel Shotgun","","15","m","JG"],
+						["(u/b_u_u/f)+3,3","Double Barrel Shotgun","","15,23","mh",""],
+						["(u/b_u_u/f)+3,4","Scissors Kick","","15,25","mm",""],
+						["(u/b_u_u/f),3","Phoenix Trip","","19","L","JG RC"],
+						["(U/B_U_U/F)+3","Pirouette Kick","","30","m","OB"],
+						["f+3+4","Roll Out","","-","-",""],
+						["4 [~B]","Flower Kick [RDS]","","23","m",""],
+						["4~3 [u_d]","Fire Cracker - [Roll up or down]","","15","L",""],
+						["f+4","Flower Bed","AOP","7","L",""],
+						["f+4,4","Flower Garden","","7,10","LL","RC"],
+						["(u/b_u_u/f),4","Crane Kick","","25","m",""],
+						["(U/B_U_U/F)+4","Flying Crane Kick","","25","m",""],
+						["u+4,4","Flower Power","","8,12","mmmm","RC #1"],
+						["U+4","Trick Flower","RDS","8","mm",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+1+2<1+2","Phoenix Strike","","40","[!]","#1"],
+						[" = b,b"," = Cancel","RDS","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["u+4,1,2,1+2,1,3,4,4,4,1","10","20,4,7,12,10,15,6,10,14,20","mhhmmMLLmm"],
+						["u+4,1,2,4,4,2,1+2,1,4,2","10","20,4,7,6,10,12,12,10,16,21","mhhLLmmllmm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "nina",
+			"name": "Nina",
+			"fullname": "Nina Williams",
+			"sex": "Female",
+			"origin": "Ireland",
+			"fightingStyle": "Koppo Assassination Arts based in Aikido",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Arm Grab Flip","Front","30","1",""],
+						["2+4","Lifting Toss","Front","30","2",""],
+						["u/f+1+2","Neck Throw","Front","40","1+2","#1"],
+						["d/f,d/f+1","Embracing Elbow Strike","Front","50","1+2",""],
+						["(1+3_2+4)","Rolling Triangle Lock","Left","40","1",""],
+						["(1+3_2+4)","Swinging Toss","Right","38","2",""],
+						["(1+3_2+4)","Triangle Hold","Back","60","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Multi Throw Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["qcf+1+2","Palm Strike","Front","15","2",""],
+						[" = 3,4,3,1+2"," = Arm Bar","","30","1+2",""],
+						[" = 2,3,4,2,2"," = Double Snap","","15,15","2",""],
+						["   = 1,3+4,1,2,1+2","   = Neck Crusher","","35","1",""],
+						["   = 1,2,4,3,1+2+3","   = Gale Tech Strech","","45","1+2",""],
+						[" = 1,3,2,1"," = Standing Reverse Arm Lock","","20","1",""],
+						["   = 3,1,4,1+2,1+2","   = Rear Gale Tech Falcon Wing","","25","1+2",""],
+						["   = 2,1,3,4,1+2","   = Falling Reverse Arm Lock","","25","2",""],
+						["2+4","Lifting Toss","Front","30","2",""],
+						[" = 1,2,1"," = Shoulder Buster","","35","None","#2"],
+						["   = 2,1,3","   = Arm Lock","","10","None",""],
+						["(WR_f,f,f)+3","Leaping Heel Hold","Front","20,20","2","CH"],
+						[" = 1,3,2+4,3+4,1+2"," = Achilles Tendon Lock","","45","1+2",""],
+						[" = 3,1,4,2+4"," = Knee Cross Lock","","35","1",""],
+						["qcf+3+4","Crab Claw","Front","15","1",""],
+						[" = 3+4,3,4,1+2"," = Commando Arm Lock","","35","1",""],
+						[" = 3+4,4,2,1+2"," = Heel Hold","","20","2",""],
+						["   = 3,1,4,2+4","   = Knee Cross Lock","","35","1",""],
+						["   = 1,3,2+4,3+4,1+2","   = Achilles Tendon Lock","","45","2",""],
+						["qcb+1+4","Betrayer","Front","15","None",""],
+						[" = 1,3,2,1"," = Standing Reverse Arm Lock","","20","1",""],
+						["   = 3,1,4,1+2,1+2","   = Rear Gale Tech Falcon Wing","","25","1+2",""],
+						["   = 2,1,3,4,1+2","   = Falling Reverse Arm Lock","","25","2",""],
+						[" = 2,1,1+2,1+2+3"," = Twisted Nightmare","","28","2",""],
+						["   = 1,3+4,1,2,1+2","   = Neck Crusher","","35","1",""],
+						["   = 1,2,4,3,1+2+3","   = Gale Tech Strech","","45","1+2",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["(d/f+1,2)_(WS+1,2)","Double Punch","","10,15_12,15","mh",""],
+						["(1,2)_(BT 1_2,2)","Double Punch","","4,10_15,10","hh",""],
+						[" = 4"," = Bermuda Triangle","","15","h",""],
+						[" = f+1+2"," = Blonde Bomb","","20","m",""],
+						[" = 1,4"," = Biting Snake","","6,8","hl","RC"],
+						[" = 3"," = Face Kick","","20","h",""],
+						[" = d+3,4"," = Jail Crusher Kick","","10,15","Lh",""],
+						[" = d+3,2"," = Jail Crusher Upper","","10,10","Lm","JG"],
+						[" = 1,2,f+1+2"," = Punch Rush - Blonde Bomb","","6,6,20","hhm",""],
+						["b+1","Killing Blade","","15","h","CF"],
+						["d/b+1","Helping Hand","","10","m",""],
+						["f,f+1","Assassin Dagger","","14","h","OS"],
+						["SS+1","Snake Shot","","15","m","SH"],
+						["d+1,N+4","Low Jab - Rising Kick","","5,10","sm",""],
+						["(WS_f_f,f)+1+2","Blonde Bomb","","20_20_30","m",""],
+						["SS+1+2","Spiral Explosion","","20","m",""],
+						["2,1,4","Twin Jab - Low Kick","","10,10,15","hhl","RC"],
+						["2,3","Jab - Face Kick","","10,20","hh",""],
+						["2,d+3,2","Jab - Jail Crucher Upper","","10,10,10","hLm","JG"],
+						["2,d+3,4","Jab - Jail Crucher","","10,10,15","hLh",""],
+						["2,4","Jab - Roundhouse","","10,15","hh",""],
+						["(FC_d)+2,4","Low Jab - Toe Kick","","8,10","sm",""],
+						["b+2,2","Double Slap","","15,18","hh","#1"],
+						["d/b+2","Backhand Body Blow","","20","m","FS"],
+						["f,f+2","Quick Panther Claw","","15","m","SH"],
+						["f,F+2","Panther Claw","","21","m","SH"],
+						["SS+2","Lift Shot","","15","m","JGc"],
+						["d,d/f+2","Shut Up","","24","m","JG"],
+						["3,4","Head Ringer","","25,15","hh",""],
+						["(qcf_f,f)+3","Bad Habit","","25","m","MS DSc"],
+						["(WR_f,f,f)+3","Leaping Slash Kick","","20","m",""],
+						["3,3","Spike Combo","","25,10","hl",""],
+						[" = 2"," = Upper","","10","m","JG"],
+						[" = f+2"," = Delayed Upper","","10","m","JG"],
+						[" = 4"," = High Kick","","15","h",""],
+						[" = d+4"," = Shin Kick","","7","L",""],
+						["(FC_d)+3,2","Low Spin Kick - Upper","","12,10","Lm","JG"],
+						["(FC_d)+3,N+4","Low Spin Kick - High Kick","","12,15","Lh",""],
+						["(FC_D)+3,4","Low Spin Kick - Shin Kick","","12,7","Ll",""],
+						["u/f,N,(d_d/b_d/f)+3,2","Hop - Low Spin Kick - Upper","","25,10","Lm","JG"],
+						["u/f,N,(d_d/b_d/f)+3,3","Hop - Low Spin Kick - Front Kick","","25,15","Lm",""],
+						["u/f,N,(d_d/b_d/f)+3,4","Hop - Low Spin Kick - High Kick","","25,15","Lh",""],
+						["d/f+3,2 [~U_~D]","Creeping Snake - [Side Step]","","10,12","mh","#2"],
+						[" = <4"," = Roundhouse","","15","h",""],
+						[" = d+3"," = Low Spin Kick","","10","L","RC"],
+						["   = 2","   = Upper","","10","m","JG"],
+						["   = 4","   = High Kick","","15","h",""],
+						[" = 3"," = Face Kick","","20","h",""],
+						[" = 1,4"," = Biting Snake","","6,8","hL",""],
+						["d/f+3,1,2,f+1+2","Assault - Blonde Bomb","","10,10,6,20","mhhm",""],
+						["d/f+3,3,3","Flash Kicks","","10,6,8","mhh",""],
+						[" = 3"," = Low Kick","","10","l",""],
+						[" = 4"," = Roundhouse","","15","h",""],
+						[" = 1,2,f+1+2"," = Assault - Blonde Bomb","","10,5,20","hhm",""],
+						["d/f+3,4","Mid Kick - Roundhouse","","10,15","mh",""],
+						["(d,d/b+3_d/b+3+4)","Divine Cannon","","25","m","JG"],
+						["(d_d/f)+3+4","Twisted Mind","","16","-","#3"],
+						["SS+4","Heel Slicer","","10","L","KS"],
+						["(qcf_f,f)+4","Flip Heel Kick","","20","M",""],
+						["d,d/f+4","Wipe the Floor","","15","L","RC"],
+						["(FC_d)+4,1 [~U_~D]","Shin Kick - Spin Punch [Side Step]","","10_7,10","lh","#2"],
+						["4,3","Blonde Attack","","15,15","hL",""],
+						[" = 2"," = Upper","","10","m","JG"],
+						[" = 4"," = High Kick","","15","h",""],
+						[" = d+4"," = Shin Kick","","7","L",""],
+						["u/f+4,3,4","Can Opener","","20,10,14","hlh",""],
+						["d/b+4","Slicer - FCD","","7","L",""],
+						["d/b+4,3","Slicer - Divine Cannon","","7,21","Lm","JG"],
+						["b+(1+3_2+4)","High and Mid Attack Reversal","","Varies","-",""],
+						["d+(1+3_2+4)","Low Parry","","Varies","-",""],
+						["u,u/b","Evasive Backflip","","-","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["d/b+1+2","Hunting Swan","","95","!",""],
+						[" = u,u"," = Cancel","","-","-",""],
+						["qcf,D/B+2+3","Evil Mist","","0","<!&gt;",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["1,2,1,2,3,3,2,1,2,4","10","4,10,6,6,7,9,6,6,6,30","hhhhhlhhhh"],
+						["1,2,1,2,3,3,2,1,4,3","10","4,10,6,6,7,9,6,6,5,25","hhhhhlhhlm"],
+						["1,2,1,2,4,3,4,2,4,3","10","4,10,6,6,9,9,5,6,5,25","hhhhhllmlm"],
+						["d/f+1,2,1,2,3,3,2,1,2,4","10","10,15,6,6,7,9,6,6,6,30","mhhhhlhhhh"],
+						["d/f+1,2,1,2,3,3,2,1,4,3","10","10,15,6,6,7,9,6,6,5,25","mhhhhlhhlm"],
+						["d/f+1,2,1,2,4,3,4,2,4,3","10","10,15,6,6,9,9,5,6,5,25","mhhhhllmlm"],
+						["WS+1,2,1,2,3,3,2,1,2,4","10","12,15,6,6,7,9,6,6,6,30","mhhhhlhhhh"],
+						["WS+1,2,1,2,3,3,2,1,4,3","10","12,15,6,6,7,9,6,6,5,25","mhhhhlhhlm"],
+						["WS+1,2,1,2,4,3,4,2,4,3","10","12,15,6,6,9,9,5,6,5,25","mhhhhllmlm"],
+						["BT (1_2),2,1,2,3,3,2,1,2,4","10","15,10,6,6,7,9,6,6,6,30","hhhhhlhhhh"],
+						["BT (1_2),2,1,2,3,3,2,1,4,3","10","15,10,6,6,7,9,6,6,5,25","hhhhhlhhlm"],
+						["BT (1_2),2,1,2,4,3,4,2,4,3","10","15,10,6,6,9,9,5,6,5,25","hhhhhllmlm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "panda",
+			"name": "Panda",
+			"fullname": "Panda",
+			"sex": "Non-Human",
+			"origin": "China",
+			"fightingStyle": "Heihachi Style Advanced Kuma Shin Ken",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Bear Bite","Front","30","1",""],
+						["2+4","Bear Hug","Front","10,25","2",""],
+						["f,f+1+4","Stone Head","Front","35","1+2",""],
+						["hcb,f+1+2","Circus Roll","Front","60","1+2",""],
+						["(1+3_2+4)","Choke Slam","Left","10,15,25","1",""],
+						["(1+3_2+4)","Rag Doll","Right","40","2",""],
+						["(1+3_2+4)","Bear Swing","Back","70","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,1,1","Bear Hammer","","18,15,18","hhm",""],
+						["f+1,1,1","Bear Heaven Cannon","","10,8,14","hmm","JG"],
+						["D/F+1,2,1,2","Bear Upper Rush","","10,15,10,15","mmmm","JGc RC #1"],
+						["D/F,1,2,1","Quick Upper Rush","","15,12,15","mmm","JGc RC #1"],
+						["WS+1,2","Grizzly Upper - Grizzly Claw","","12,27","mm",""],
+						["FC,d/f+1,2,1","Grizzly Windmill","","12,15,15","mmm","GB"],
+						[" = 1"," = Windmill Backhand","","30","h","CF GB"],
+						["FC+1,1,1,2","Bear Rush","","12,8,12,12","LLmm","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["(D/F,1,2_FC,D/F+1,2)","Hammer Rush","","15,12","mm","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["1+2,1+2","Bear Knuckle - Claw Upper","","21,22","mm",""],
+						["WS+1+2,1+2","Claw Upper - Bear Knuckle","","21,22","mm","JG"],
+						["f+1+2","Grizzly Scissors","","25","m","CF"],
+						["f,f+2","Demon Bear Fist","","22","m","JG"],
+						["2,1,2","Punch - Elbow - Upper","","12,21,20","hmm","JG"],
+						["D/F+2,1,2,1","Bear Upper Rush","","10,15,12,15","mmmm","JG"],
+						["(D/F,2_FC,d/f+2)","Short Hammer Rush","","10","m","RC"],
+						[" = d+1"," = Low Punch","","8","L","RC"],
+						[" = d/f+1"," = Mid Punch","","15","m","RC"],
+						[" = f+1"," = High Punch","","12","h",""],
+						["(D/F,2,1,2_FC,D/F+2,1,2)","Quick Uppercut Rush","","15,15,10","mmm","JG #1 RC"],
+						["b,d/b,d,D/F+2","Grizzly Claw","","33","m","RC"],
+						["b,f+2+3","Salmon Hunter","","60","L",""],
+						["u/f+3+4","Pancake Press","","26","M","#2"],
+						["(3+4_d+3+4)","Sit Down","","-","-",""],
+						[" = B"," = Roll Back","","-","-",""],
+						[" = F"," = Roll Forward","","-","-",""],
+						[" = (1,2,1,2_2,1,2,1)"," = Sitting Claws","","10,10,10,10","llll",""],
+						["KND d+1+2","Spring Claw - Sit Down","","12","m",""],
+						[" = (1,2,1,2_2,1,2,1)","= Sitting Claws","","10,10,10,10","llll",""],
+						["1+3+4","Dancing Taunt","","-","-",""],
+						["D+4","Turn Around Dance","","20,60","LL","#3"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+1+2","Deadly Claw","","35","!",""],
+						[" = f,d/f,d,d/b,b,u/b,u,U/F"," = Rolling Bear","","40","m","#1"],
+						["b,b+2+3+4","Fatal Wind","","200","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "paul",
+			"name": "Paul",
+			"fullname": "Paul Phoenix",
+			"sex": "Male",
+			"origin": "USA",
+			"fightingStyle": "Judo-based Martial Arts",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Over the Shoulder","Front","30","1",""],
+						["2+4","Shoulder Pop","Front","30","2",""],
+						["b+2+3","Foot Launch","Front","35","2",""],
+						["d/f+1+2","Twist and Shout","Front","40","1+2",""],
+						["f,f+1+2","Shoulder Ram [tag]","Front","35","1+2",""],
+						["(FC_d/b)+1+2","Ultimate Tackle","Front","5","System",""],
+						[" = 1,2,1,(2,1_1,2)"," = Ultimate Punches","","5,5,5,5,5","System",""],
+						[" = 2,1,2,(1,2_2,1)"," = Ultimate Punches","","5,5,5,5,5","System",""],
+						[" = 1,2,1,1+2"," = Punches - Cross Arm Lock","","5,5,5,25","System",""],
+						[" = 2,1,2,1+2"," = Punches - Cross Arm Lock","","5,5,5,25","System",""],
+						[" = 1+2"," = Cross Arm Lock","","25","System",""],
+						[" = 2,D+1,1,N,4,1,1+2"," = Ultimate Punishment","","5,8,8,35","System",""],
+						["(1+3_2+4_2+5)","Dragon Screw","Left","45","1",""],
+						["(1+3_2+4_2+5)","Fall Away","Right","40","2",""],
+						["(1+3_2+4_2+5)","Reverse Neck Throw","Back","50","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","5,15","hh",""],
+						["1,4","Reverse PDK Combo","","5,8","hl","RC"],
+						["f+1+2","Hammer of Gods","","32","m","GB SLDc KSco"],
+						["f+1+4","Shoulder Rush","","20","m",""],
+						["qcf+1","Thruster","","20","h","JG FSc"],
+						["d+1","Tile Splitter","","15","m",""],
+						[" = 2"," = Deathfist","","26","m",""],
+						[" = 4,2"," = Falling Leaf","","15,21","lm",""],
+						["2,3","PK Combo","","12,21","hh",""],
+						["2,d+3","PDK Combo","","12,8","hL","RC"],
+						["f+2,3","Quick PK Combo","","12,20","hh",""],
+						["f,f+2","Flash Elbow","","15","m",""],
+						["d/f+2","Upper","","13","m","JG"],
+						["qcf+2","Death Fist","","33","m",""],
+						["WS+2","Rising Upper","","15","m","JG"],
+						["(FC,d/f_D/F)+2","Jaw Breaker","","21","m",""],
+						[" = <1"," = Gut Buster","","25","m","#3"],
+						[" = <2"," = Stone Breaker","","21","L","JG"],
+						["qcb","Sway","","-","-",""],
+						[" = 1"," = Tile Splitter","","15","m","BNc"],
+						[" = 2"," = Rubberband Fist","","18","m","GB MS KNDc"],
+						[" = 3"," = Rapid Fire","","12","L","RC"],
+						["   = <2<1","   = Jaw Breaker - Gut Buster","","21,25","mm","#3"],
+						["   = <2<2","   = Jaw Breaker - Stone Breaker","","21,21","mL","JG"],
+						["u/f+3,4","Shredder","","17,28","mm",""],
+						["f,f+3,4","Shredder","","20,15","mm",""],
+						[" = 4"," = High Kick","","25","h","GB"],
+						[" = d/f+4"," = Mid Kick","","15","m",""],
+						[" = (d_d/b)+4"," = Low Kick","","15","L","RC"],
+						["d+4,2","Falling Leaf","","15,20","lm","BS"],
+						["f,f+4","Neutron Bomb","","20","m","GB JGco RC"],
+						["FC,u+2+3+4","Incomplete Somersault","","25 (15 to Paul)","M","#1"],
+						["D+2","Ground Pounce","","16","L","#2"],
+						["b+(1+3_2+4)","High and Mid Attack Reversal","","Varies","-",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b+1+2","Burning Death Fist","","100","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["1,2,3,1,4,2,1,4,2,1","10","15,12,5,6,7,8,5,8,10,30","hhmmlmhmLm"],
+						["1,2,3,2,1,2,1,4,2,1","10","15,12,5,5,7,4,5,7,8,30","hhmhmhhlmm"],
+						["1,2,3,1,2","5","15,12,5,6,30","hhmmm"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "trueogre",
+			"name": "True Ogre",
+			"fullname": "True Ogre",
+			"sex": "Non-Human",
+			"origin": "Unknown",
+			"fightingStyle": "Personal style sampled from many fighters",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Body Slam","Front","30","1",""],
+						["2+4","Bear Hug","Front","10,25","2",""],
+						["d/f,D/F+2+4","Waning Moon","Front","35","None",""],
+						["(1+3_2+4)","Choke Slam","Left","10,15,25","1",""],
+						["(1+3_2+4)","Rag Doll","Right","40","2",""],
+						["(1+3_2+4)","Bear Swing","Back","70","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Double Punch","","5,15","hh",""],
+						["1,2,2","Demon Slayer","","5,15,18","hhh",""],
+						["d/f+1,2","Double Face Buster","","16,10","mm",""],
+						["1,1<2","Shining Fists","","5,8,15","hhm",""],
+						["D,f+1","Cat Thrust","","30","m","CF"],
+						["f,f+1+2","Lunging Double Fist","","25","M",""],
+						["d/f+1+2","Buffalo Horn","","25","m","JG"],
+						["f+1+4","Black Shoulder","","30","m","GB"],
+						["(u_u/f)+1+2","Knuckle Bomb","","35","m",""],
+						["(u_u/f),N+1+2","Jumping Knuckle Bomb","","35","m",""],
+						["2,2","Demon Backhand Spin","","12,21","hh",""],
+						["WS+2","Demon Gut Punch","","25","m","FS"],
+						["f+2","Front Strike","","28","m",""],
+						["d/f+2","Upper","","15","m","JGc SH"],
+						["D,f+2","Scarlett Windmill","","30","m","CSc"],
+						["D,d/f+2","Scarlet Sweep","","25","L","JG"],
+						["f,f+3","Split Axe Kick","","23","m",""],
+						["u/b+3","Back Flip Kick","","20","m",""],
+						[" = 2 [~5]"," = Tooth Fairy [tag]","","25","m","JG"],
+						["u/f+3,4,3","Hunting Hawk","","15,14,25","mmh","GB #4"],
+						["FC+3,3,d+3","Snake Creep","","12,19,7","LLL",""],
+						["FC+3,3,N+3","Snake Blade","","12,19,25","LLm","JG"],
+						["WS+3,3","Tsunami Kick","","10,17","mm",""],
+						[" = d/f+3"," = Step In Kick Infinite Starter","","18","m","#2"],
+						[" = D+3"," = Silver Low Infinite Starter","","15","l","#2"],
+						["   = 3,3,3,3...","   = Rave Kicks","","10,15,10,15...","mhmh","#3"],
+						["     = u+3,3,3...","     = Feint Hammer - Rave Kicks","","15,10,15...","mmh","#3"],
+						["     = d+3,3,3...","     = Silver Low - Rave Kicks","","15,10,15...","lmh","#3"],
+						["f,f+3+4","Exploder","","40","h","GB"],
+						["f,f,N+3+4","Delayed Dragon Slide","","15","L",""],
+						["WS+3+4","Spin Kick","","28","h",""],
+						["u+3+4","Evil Wheel","","25","m","GB"],
+						["d+3+4","Demon Tail","","25","L","RC"],
+						["d/f+3+4","Tail Spin","","25","m",""],
+						[" = ~D/F"," = Back Turned Position","","-","-","BT"],
+						[" = 3+4"," = Double Spin","","25","m",""],
+						["f+4","Axe Kick","","27","m","KSco"],
+						["d,d/b+4","Blazing Kick","","30","m","JGc"],
+						["d+4,N+4","Laser Edge - Machine Gun Kick","","7,20","lh",""],
+						["f,f+4","Bazooka Kick","","35","h",""],
+						["f,f,N+4","Hammer Heel","","20","M",""],
+						["WS+4,4","Tsunami Kick","","13,18","mm",""],
+						["4~3","Scissors Kick","","25","M",""],
+						["D/F","Deadly Feast","","Varies","-","#1"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1+2","Hell Flame","","30","[!]","CS"],
+						["d+1+2","Hell Inferno","","40","<!&gt;","CS"],
+						["(PLD_KND) 3+4","Owl's Hunt","","40","<!&gt;",""],
+						[" = ~f"," = Warp Behind","","40","<!&gt;",""],
+						[" = ~u"," = Side Warp","","40","<!&gt;",""],
+						[" = ~d"," = Side Warp","","40","<!&gt;",""],
+						["d/b+1+2","Bloody Scissors","","50","!","CF JG"],
+						["(u_u/f)+1+2~D","Burning Knuckle Bomb","","45","[!]",""],
+						["(u_u/f),N+1+2~D","Jump In Burning Knuckle Bomb","","45","[!]",""],
+						["b,b+1+2","Indigo Punch","","100","!",""],
+						["f,f+2","Deadly Spear","","15,20","m","CF JG #1"],
+						["b+2","Kunai Stab","","22","!","CF JG"],
+						["f,f,N+2","Kunai Advance","","25","!","CF JG"],
+						["b+2+3","Sidewinder","","60","!",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+					],
+					"footnotes": [
+					]
+				}
+			]
+		},
+		{
+			"id": "yoshimitsu",
+			"name": "Yoshimitsu",
+			"fullname": "Yoshimitsu",
+			"sex": "Non-Human",
+			"origin": "None (formerly Japan)",
+			"fightingStyle": "Advanced Manji Ninja Arts",
+			"author": "Castel",
+			"copyright": "1999-2016 Tekken Zaibatsu",
+			"arts": [
+				{
+					"art": "Grappling Arts",
+					"header": [
+						"Command",
+						"Throw Name",
+						"Type",
+						"Damage",
+						"Escape",
+						"Properties"
+					],
+					"moves": [
+						["1+3","Jumping Body Slam","Front","30","1",""],
+						["2+4","Sword Face Smash","Front","30","2",""],
+						["qcb+1+2","Rainbow Drop","Front","50","1+2",""],
+						["(1+3_2+4)","Wheels of Hell","Left","15,25","1",""],
+						["(1+3_2+4)","Clonimitsu","Right","15,25","2",""],
+						["(1+3_2+4)","Tornado Drop","Back","70","None",""]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Special Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["1,2","Jab - Uppercut","","5,8","hm",""],
+						["1,2,1","Jab - Double Uppercut","","5,8,6","hmm",""],
+						["b+1,1,1,1,1,1","Stone Fists","","10,10,10,10,10,10","hhhhhh","#1"],
+						["d/f+1,2","Hilt Strike - Backfist","","15,12","mh","OB"],
+						[" = D/B+2,2,2,2,2,2"," = Manji Spin Slaps","","10,10,12,12,14,15","mmmmm","#1 RC"],
+						["d/f+1<1<1<1","Door Knocker","","15,12,12,24","mhhm",""],
+						["WS+1+2","Quick Upper","","12","m",""],
+						["f,f+1+2","Dive Bomb","","22","m","BK"],
+						[" = (1+4_2+3)"," = Soul Siphon","","35","h","#4"],
+						[" = F+(1+4_2+3)"," = Possession","","-35","h","#3"],
+						["D/B+2,2,2,2,2,2","Manji Spin Slaps","","10,10,12,12,14,15","mmmmm","#1 RC"],
+						["2,3","Flash Attack","","12,21","hh",""],
+						["2,d+3","Low Flash Attack","","12,8","hL","RC"],
+						["f+2","Backfist","","12","h","OB"],
+						[" = D/B+2,2,2,2,2,2","Manji Spin Slaps","","10,10,12,12,14,15","mmmmm","#1 RC"],
+						["f,f+2","Ninja Blade Smash","","18","m",""],
+						["f,f+2","Ninja Blade Slice","","18","m","CH"],
+						[" = d+3+4"," = Indian Sit","","-","-",""],
+						["d/f+2","Step in Upper","","13","m","JG"],
+						["FC,d/f+3","Lunging Sweep","","12","L","JG"],
+						["D/B+3,3,3,3,3","Manji Spin Kicks","","12,7,7,5,5","Lllll","#1 RC"],
+						["3,4","Zig Zag","","30,30","hm",""],
+						["f,f+3+4","Shark Attack","","30","m",""],
+						[" = 1+2"," = Dive Bomb","","40","m",""],
+						["   = 3+4","   = Kangaroo Kick","","30","m","JG"],
+						["d+3+4","Indian Sit","","-","-",""],
+						[" = ~D"," = Yoga","","-","-",""],
+						[" = (f_b)"," = Vacuum Dance","","-","-","#2"],
+						[" = N"," = Healing","","-","-","#4"],
+						[" = 4"," = Kangaroo Kick","","30","m","JG"],
+						[" = 2,D/B+2,2,2,2"," = Manji Spin Slaps","","10,12,12,14,15","mmmmm","#1"],
+						["SS+3+4","Meditation","","-","-",""],
+						[" = (1+4_2+3)"," = Soul Siphon","","35","h","#4"],
+						[" = F+(1+4_2+3)"," = Possession","","-35","h","#3"],
+						["u/f+3+4","Poison Wind","","10","m",""],
+						[" = b+1"," = Stone Fist","","2","s",""],
+						[" = 3+4"," = Poison Wind","","20","m",""],
+						[" = 4"," = Manji Flip","","15","s",""],
+						[" = d/b+1"," = Sword Slice","","15","[!]",""],
+						["d/f+4","Side Kick","","19","m",""],
+						["f,f+4","Fubuki","","20","m",""],
+						["4,4,4","Triple Roundhouse Combo","","20,20,21","hhh","OS"],
+						["4~3","Kangaroo Kick","","30","m","JG"],
+						["(u/f_u_u/b)+4","Avoiding the Puddle","","25","m",""],
+						["f,f+1+4","Fake Suicide","","-","-","BK"],
+						["u,u/b","Evasive Backflip","","-","-",""],
+						["(d_d/b)+(1+3_2+4)","Low Parry","","-","-",""],
+						["b+3+4,3+4(x5)","Evasive Side Spin","","-8,-8,-8,-8,-8,-8","-","#3"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "Unblockable Arts",
+					"header": [
+						"Command",
+						"Move Name",
+						"Stance",
+						"Damage",
+						"Hit Range",
+						"Properties"
+					],
+					"moves": [
+						["b,b+1","Sword Impale","","90","!",""],
+						[" = ~N+1"," = Sword Spin","","30","!",""],
+						["u+1+2","Flea","","30","[!]",""],
+						[" = (u/b_u_u/f)"," = Jumping Flea","","25","[!]",""],
+						[" = (f,f_b,b)"," = Running Flea","","15","[!]",""],
+						[" = 3+4"," = Kangaroo Kick","","30","m","JG"],
+						["B+1+2","Death Pose","","-","-",""],
+						[" = any"," = Bad Breath","","35","!","JG"],
+						["qcf+1","Moonsault Slayer","","30,15,28","!![!]",""],
+						["f,f+3,1","Wood Cutter","","20,18","m[!]",""],
+						["FC,b+1","Sweep Slice","","20","!",""],
+						["d+1+4","Harakiri","","60","!","#1"],
+						[" = B+1,1,1,1,1"," = Manji Blood Dance","","3,3,3,3,3","!!!!!","#1"],
+						["f,F+1+4","Suicide","","100","!","#1"],
+						[" = f,f"," = Double Suicide","","100","!","#1"],
+						["SS+3+4","Meditation","","-","-",""],
+						[" = F"," = Healing","","10","!","#3"],
+						["d/b+1","Sword Slice","","10","[!]",""],
+						[" = ~N,D/B"," = Sword Delay","","-","-",""],
+						["   = N","   = Delayed Sword Slice","","15","[!]","#2"],
+						["u/f+1+2","Deathcopter","","40","[!]",""],
+						[" = d"," = Deathcopter Slash","","25","[!]",""],
+						[" = B"," = Deathcopter Trick","","35","[!]",""],
+						["b+1+4","Yoshimitsu Flash","","25","!","JG CF"]
+					],
+					"footnotes": [
+					]
+				},
+				{
+					"art": "String Hit Arts",
+					"header": [
+						"Command",
+						"Hits",
+						"Damage",
+						"Hit Range"
+					],
+					"moves": [
+						["1,2,1,4,4,4,1,1,1,1","10","5,8,6,9,9,5,5,8,8,30","hmmhhLm[!][!]!"],
+						["1,2,1,4,2,2,2,4,1,1","10","5,8,6,9,3,3,3,7,8,30","hmmhmmmm[!]!"],
+						["4,4,2,2,4,4,1,1,1,1","10","20,20,5,6,9,5,5,8,8,30","hhmhhLm[!][!]!"],
+						["1,2,1,4,4,4,1,3+4","8","5,8,6,9,9,5,5,25","hmmhhLmm"],
+						["4,4,2,2,4,4,1,3+4","8","20,20,5,6,9,5,5,25","hhmhhLmm"],
+						["4,4,2,2,1","5","20,20,5,6,30","hhmh!"]
+					],
+					"footnotes": [
+					]
+				}
+			]
+		}
+	]
+}

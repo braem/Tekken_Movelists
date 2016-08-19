@@ -1,0 +1,37 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Shared Imports
+// --------------------------------------------------
+// These are the imports which make up the design of this app.
+// By default each design mode includes these shared imports.
+// App Shared Sass variables belong in app.variables.scss.
+
+@import "../pages/contact/contact.scss";
+@import "../pages/movelist/movelist.scss";
+@import "../pages/game-select/game-select.scss";
+@import "../pages/char-select/char-select.scss";
+@import "../pages/legend/legend.scss";
+
+
+@font-face {
+  font-family: 'tekken6';
+  src: url('../../assets/fonts/tekken6.eot');
+  src: url('../../assets/fonts/tekken6.eot') format('embedded-opentype'),
+  url('../../assets/fonts/tekken6.woff') format('woff'),
+  url('../../assets/fonts/tekken6.ttf') format('truetype'),
+  url('../../assets/fonts/tekken6.svg#tekken6') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tarrget';
+  src: url('../../assets/fonts/tarrget.eot');
+  src: url('../../assets/fonts/tarrget.eot') format('embedded-opentype'),
+  url('../../assets/fonts/tarrget.woff') format('woff'),
+  url('../../assets/fonts/tarrget.ttf') format('truetype'),
+  url('../../assets/fonts/tarrget.svg#tarrget') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="font-family: tarrget">Game Select</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngIf="games.length">
+    <ion-card *ngFor="let game of games" (click)="advance(game)">
+      <ion-card-header>
+        <img src="assets/game_imgs/{{game}}.jpg" >
+      </ion-card-header>
+    </ion-card>
+  </div>
+
+</ion-content>

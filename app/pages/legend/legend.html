@@ -1,0 +1,786 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="font-family: tarrget">Legend</ion-title>
+    <ion-buttons end>
+      <button (click)="dismiss()">
+        <span primary showWhen="ios">Cancel</span>
+        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header class="tabletitle" (click)="clickedTable(0)">Commands</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(0)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="longcol"></ion-col>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="longcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>1</ion-col>
+          <ion-col class="columnBorder">left punch</ion-col>
+          <ion-col width-10>2</ion-col>
+          <ion-col >right punch</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>3</ion-col>
+          <ion-col class="columnBorder">left kick</ion-col>
+          <ion-col width-10>4</ion-col>
+          <ion-col >right kick</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>5</ion-col>
+          <ion-col class="columnBorder">tag button</ion-col>
+          <ion-col width-10>any</ion-col>
+          <ion-col >any button but tag</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>f</ion-col>
+          <ion-col class="columnBorder">tap forward</ion-col>
+          <ion-col width-10>F</ion-col>
+          <ion-col >hold forward</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>d</ion-col>
+          <ion-col class="columnBorder">tap down</ion-col>
+          <ion-col width-10>D</ion-col>
+          <ion-col >hold down</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>b</ion-col>
+          <ion-col class="columnBorder">tap back</ion-col>
+          <ion-col width-10>B</ion-col>
+          <ion-col >hold back</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>u</ion-col>
+          <ion-col class="columnBorder">tap up</ion-col>
+          <ion-col width-10>U</ion-col>
+          <ion-col >hold up</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>d/f</ion-col>
+          <ion-col class="columnBorder">tap down forward</ion-col>
+          <ion-col width-10>D/F</ion-col>
+          <ion-col >hold down forward</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>d/b</ion-col>
+          <ion-col class="columnBorder">tap down back</ion-col>
+          <ion-col width-10>D/B</ion-col>
+          <ion-col >hold down back</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>u/f</ion-col>
+          <ion-col class="columnBorder">tap up forward</ion-col>
+          <ion-col width-10>U/F</ion-col>
+          <ion-col >hold up forward</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>u/b</ion-col>
+          <ion-col class="columnBorder">tap up back</ion-col>
+          <ion-col width-10>U/B</ion-col>
+          <ion-col >hold up back</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>qcf</ion-col>
+          <ion-col class="columnBorder">quarter circle forward</ion-col>
+          <ion-col width-10>qcb</ion-col>
+          <ion-col >quarter circle back</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>hcf</ion-col>
+          <ion-col class="columnBorder">half circle forward</ion-col>
+          <ion-col width-10>hcb</ion-col>
+          <ion-col >half circle back</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+    <ion-list-header class="tabletitle" (click)="clickedTable(1)">Notations</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(1)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="longcol"></ion-col>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="longcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>FC</ion-col>
+          <ion-col class="columnBorder">full crouch animation</ion-col>
+          <ion-col width-10>WS</ion-col>
+          <ion-col >while standing up</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>N</ion-col>
+          <ion-col class="columnBorder">joystick in neutral</ion-col>
+          <ion-col width-10>WR</ion-col>
+          <ion-col >while running</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SS</ion-col>
+          <ion-col class="columnBorder">side step either way</ion-col>
+          <ion-col width-10>SSL</ion-col>
+          <ion-col >side step to left</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>SSR</ion-col>
+          <ion-col class="columnBorder">side step to right</ion-col>
+          <ion-col width-10>[ ]</ion-col>
+          <ion-col >optional command</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>,</ion-col>
+          <ion-col class="columnBorder">followed by</ion-col>
+          <ion-col width-10>~</ion-col>
+          <ion-col >immediately after</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>+</ion-col>
+          <ion-col class="columnBorder">at the same time</ion-col>
+          <ion-col width-10>( _ )</ion-col>
+          <ion-col >or</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10><</ion-col>
+          <ion-col class="columnBorder">delayed input</ion-col>
+          <ion-col width-10>=</ion-col>
+          <ion-col >next in sequence</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>°</ion-col>
+          <ion-col class="columnBorder">push and hold button</ion-col>
+          <ion-col width-10>:</ion-col>
+          <ion-col >requires just frame input</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+    <ion-list-header class="tabletitle" (click)="clickedTable(2)">Grounded Positions</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(2)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="extralongcol"></ion-col>
+          <ion-col class="extralongcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>PLD</ion-col>
+          <ion-col >play dead position</ion-col>
+          <ion-col >face up & feet away</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>KND</ion-col>
+          <ion-col >knockdown position</ion-col>
+          <ion-col >face up & feet towards</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SLD</ion-col>
+          <ion-col >slide position</ion-col>
+          <ion-col >face down & feet away</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>FCD</ion-col>
+          <ion-col >face down position</ion-col>
+          <ion-col >face down & feet towards</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+    <ion-list-header class="tabletitle" (click)="clickedTable(3)">Move Properties</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(3)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="superlongcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>BT</ion-col>
+          <ion-col >your back turned to the opponent</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>FF</ion-col>
+          <ion-col >face forward towards opponent</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>OB</ion-col>
+          <ion-col >forces opponent's back to face you</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>OC</ion-col>
+          <ion-col >forces opponent into crouch</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>OS</ion-col>
+          <ion-col >forces opponent's side to face you</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>JG</ion-col>
+          <ion-col >juggle starter</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>BN</ion-col>
+          <ion-col >bounce juggle starter</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>RC</ion-col>
+          <ion-col >recover crouching after a move</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>RCj</ion-col>
+          <ion-col >joystick modifier, need to hold D during the move to RC</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>CH</ion-col>
+          <ion-col >requires a counter hit</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DS</ion-col>
+          <ion-col ><p class="nopadding">double over stun</p>
+            <p class="subText nopadding">tap f to escape in most cases, you can usually launch opponent</p></ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>FS</ion-col>
+          <ion-col ><p class="nopadding">fall back stun</p>
+            <p class="subText nopadding">tap f to escape in most cases, you can usually launch opponent</p></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>MS</ion-col>
+          <ion-col ><p class="nopadding">minor stun</p>
+            <p class="subText nopadding">various animations, in most cases doesn't lead to guaranteed hits</p></ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>KS</ion-col>
+          <ion-col ><p class="nopadding">kneel stun</p>
+            <p class="subText nopadding">opponent is forced onto one knee, usually does not act as a combo starter</p></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>CS</ion-col>
+          <ion-col ><p class="nopadding">crumple stun</p>
+            <p class="subText nopadding">opponent crumples to the ground in front of you right away, usually acts as a combo starter</p></ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>CF</ion-col>
+          <ion-col ><p class="nopadding">crumple fall</p>
+            <p class="subText nopadding">opponent stays briefly upright before slumping to the ground, usually acts as a combo starter</p></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>CFS</ion-col>
+          <ion-col ><p class="nopadding">crumple fall stun</p>
+            <p class="subText nopadding">opponent is pushed away while crumpling to the ground, can be a combo starter</p></ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>BS</ion-col>
+          <ion-col >block stun (to attacking character)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SH</ion-col>
+          <ion-col >stagger hit</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>GB</ion-col>
+          <ion-col ><p class="nopadding">guard break</p>
+            <p class="subText nopadding">opponent is immobilized briefly, the opponent usually has the offensive advantage</p></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>TT</ion-col>
+          <ion-col >throw transition (results in throw on hit)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>TC</ion-col>
+          <ion-col ><p class="nopadding">technically crouching state</p>
+            <p class="subText nopadding">crouch status during this move crushes high attacks</p></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>TJ</ion-col>
+          <ion-col ><p class="nopadding">technically jumping state</p>
+            <p class="subText nopadding">jump status during this move crushes low attacks</p></ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>HA</ion-col>
+          <ion-col ><p class="nopadding">homing attack</p>move tracks both left and right</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>B!</ion-col>
+          <ion-col ><p class="nopadding">this move causes bound state</p>
+            <p class="subText nopadding">bound moves usually also cause floor destruction</p></ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>F!</ion-col>
+          <ion-col ><p class="nopadding">this move causes floor destruction</p>
+            <p class="subText nopadding">mostly for throws that don't cause a bound state but break floors</p></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>#</ion-col>
+          <ion-col >see corresponding footnote</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>[2]</ion-col>
+          <ion-col >hit modifier (eg. RC[2] - property applies to 2nd hit)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>b</ion-col>
+          <ion-col >block modifier (eg. OCb - opponent crouch on block)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>c</ion-col>
+          <ion-col >CH modifier (eg. JGc - juggle starter on counter hit)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>co</ion-col>
+          <ion-col >crouching opponent modifier (eg. KSco - kneel stun on crouching opponent)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>cco</ion-col>
+          <ion-col >CH on crouching opponent modifier (eg. FScco - fallback stun on CH on crouching opponent)</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+    <ion-list-header class="tabletitle" (click)="clickedTable(4)">Hit Ranges</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(4)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="superlongcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>l</ion-col>
+          <ion-col >hits low (block with d/b, or jump to avoid)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>m</ion-col>
+          <ion-col >hits mid (block with b)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>s</ion-col>
+          <ion-col >hits special mid (block with d/b or b)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>h</ion-col>
+          <ion-col >hits high (block with b, or duck to avoid)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>L</ion-col>
+          <ion-col >hits low and grounded opponents (block with d/b, or jump to avoid)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>M</ion-col>
+          <ion-col >hits mid (block with b)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>S</ion-col>
+          <ion-col >hits special mid (block with d/b or b)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>H</ion-col>
+          <ion-col >hits high (block with b, or duck to avoid)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>!</ion-col>
+          <ion-col >unblockable hit</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>(!)</ion-col>
+          <ion-col >unblockable hit which can be ducked</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>[!]</ion-col>
+          <ion-col >unblockable hits grounded opponents</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>"</ion-col>
+          <ion-col >indicates block point in string hits</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+    <ion-list-header class="tabletitle" (click)="clickedTable(5)">Combo Specific Abbreviations</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(5)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="extralongcol"></ion-col>
+          <ion-col class="extralongcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>cc</ion-col>
+          <ion-col >crouch cancel</ion-col>
+          <ion-col >tap u or f,f while crouching</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>cd</ion-col>
+          <ion-col >crouch dash</ion-col>
+          <ion-col >f,N,d,d/f (usually)</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>iWS</ion-col>
+          <ion-col >instant while standing</ion-col>
+          <ion-col >d,d/b,N_d,d/f,N (usually)</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>wgf</ion-col>
+          <ion-col >wind godfist</ion-col>
+          <ion-col >f,N,d,d/f+2</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>ewgf</ion-col>
+          <ion-col >electric wind godfist</ion-col>
+          <ion-col >f,N,d~d/f+2</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>tgf</ion-col>
+          <ion-col >thunder godfist</ion-col>
+          <ion-col >f,N,d,d/f+1</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>big</ion-col>
+          <ion-col >big character combo</ion-col>
+          <ion-col >only works on big characters</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>( )</ion-col>
+          <ion-col >missing hit</ion-col>
+          <ion-col >is required for the next hit</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+    <ion-list-header class="tabletitle" (click)="clickedTable(6)">Character Specific Abbreviations</ion-list-header>
+    <table class="table" [hidden]="shouldHideTable(6)">
+      <thead>
+        <ion-row>
+          <ion-col class="shortcol"></ion-col>
+          <ion-col class="extralongcol"></ion-col>
+          <ion-col class="extralongcol"></ion-col>
+        </ion-row>
+      </thead>
+      <tbody>
+        <ion-row>
+          <ion-col width-10>BDS</ion-col>
+          <ion-col >bad stomach</ion-col>
+          <ion-col >Dr. Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>FB</ion-col>
+          <ion-col >fall back</ion-col>
+          <ion-col >Dr. Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>EFB</ion-col>
+          <ion-col >electric fall back</ion-col>
+          <ion-col >Dr. Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>EFF</ion-col>
+          <ion-col >electric fall fake</ion-col>
+          <ion-col >Dr. Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>HSP</ion-col>
+          <ion-col >handstand position</ion-col>
+          <ion-col >Eddy Gordo</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>RLX</ion-col>
+          <ion-col >relaxed position</ion-col>
+          <ion-col >Eddy Gordo</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>AOP</ion-col>
+          <ion-col >art of phoenix</ion-col>
+          <ion-col >Ling Xiaoyu, Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>RDS</ion-col>
+          <ion-col >rain dance stance</ion-col>
+          <ion-col >Ling Xiaoyu</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>LFF</ion-col>
+          <ion-col >left foot forward</ion-col>
+          <ion-col >Hwoarang</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>RFF</ion-col>
+          <ion-col >right foot forward</ion-col>
+          <ion-col >Hwoarang</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>LFS</ion-col>
+          <ion-col >left flamingo stance</ion-col>
+          <ion-col >Hwoarang</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>RFS</ion-col>
+          <ion-col >right flamingo stance</ion-col>
+          <ion-col >Hwoarang</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>VTS</ion-col>
+          <ion-col >vale tudo stance</ion-col>
+          <ion-col >Craig Marduk</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>DSS</ion-col>
+          <ion-col >dragon sign stance</ion-col>
+          <ion-col >Marshall Law, Forest Law</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DFS</ion-col>
+          <ion-col >dragon fake step</ion-col>
+          <ion-col >Marshall Law, Forest Law</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>HMS</ion-col>
+          <ion-col >hit man stance</ion-col>
+          <ion-col >Lee Chaolan, Violet</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>HBS</ion-col>
+          <ion-col >hunting bear stance</ion-col>
+          <ion-col >Kuma, Panda</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>ROL</ion-col>
+          <ion-col >prowling grizzly roll</ion-col>
+          <ion-col >Kuma, Panda</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>CRA</ion-col>
+          <ion-col >art of crane</ion-col>
+          <ion-col >Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>SNA</ion-col>
+          <ion-col >art of snake</ion-col>
+          <ion-col >Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>TGR</ion-col>
+          <ion-col >art of tiger</ion-col>
+          <ion-col >Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>DGN</ion-col>
+          <ion-col >art of dragon</ion-col>
+          <ion-col >Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>PAN</ion-col>
+          <ion-col >art of panther</ion-col>
+          <ion-col >Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>DRU</ion-col>
+          <ion-col >drunken master</ion-col>
+          <ion-col >Lei Wulong</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>INS</ion-col>
+          <ion-col >indian sit</ion-col>
+          <ion-col >Yoshimitsu</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>FLE</ion-col>
+          <ion-col >flea stance</ion-col>
+          <ion-col >Yoshimitsu</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DGF</ion-col>
+          <ion-col >dragonfly stance</ion-col>
+          <ion-col >Yoshimitsu</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>MED</ion-col>
+          <ion-col >meditation</ion-col>
+          <ion-col >Yoshimitsu</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>KIN</ion-col>
+          <ion-col >kinchou stance</ion-col>
+          <ion-col >Yoshimitsu</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>NSS</ion-col>
+          <ion-col >no sword stance</ion-col>
+          <ion-col >Yoshimitsu</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>FLA</ion-col>
+          <ion-col >flamingo stance</ion-col>
+          <ion-col >Baek Doo San</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>CES</ion-col>
+          <ion-col >clockwise evasive spin</ion-col>
+          <ion-col >Julia Chang</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>KNP</ion-col>
+          <ion-col >kenpo step</ion-col>
+          <ion-col >Feng Wei</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>STC</ion-col>
+          <ion-col >shifting clouds</ion-col>
+          <ion-col >Feng Wei</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SDW</ion-col>
+          <ion-col >shadow stance</ion-col>
+          <ion-col >Raven</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>HAZ</ion-col>
+          <ion-col >haze stance</ion-col>
+          <ion-col >HAZ</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>CDS</ion-col>
+          <ion-col >crouching demon stance</ion-col>
+          <ion-col >Jin Kazama</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>ALB</ion-col>
+          <ion-col >albatross spin</ion-col>
+          <ion-col >Steve Fox</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DCK</ion-col>
+          <ion-col >ducking</ion-col>
+          <ion-col >Steve Fox</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>PKB</ion-col>
+          <ion-col >peekaboo</ion-col>
+          <ion-col >Steve Fox</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SWY</ion-col>
+          <ion-col >sway</ion-col>
+          <ion-col >Steve Fox, Paul Phoenix</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>LWV</ion-col>
+          <ion-col >left weave</ion-col>
+          <ion-col >Steve Fox</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>RWV</ion-col>
+          <ion-col >right weave</ion-col>
+          <ion-col >Steve Fox</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>FLK</ion-col>
+          <ion-col >flicker</ion-col>
+          <ion-col >Steve Fox</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SIT</ion-col>
+          <ion-col >sit down</ion-col>
+          <ion-col >Ganryu, Kuma, Panda</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>CJM</ion-col>
+          <ion-col >chaos judgment</ion-col>
+          <ion-col >Anna Williams</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>HPF</ion-col>
+          <ion-col >haze palm fist</ion-col>
+          <ion-col >Asuka Kazama</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>LCT</ion-col>
+          <ion-col >leg cutter</ion-col>
+          <ion-col >Asuka Kazama</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DES</ion-col>
+          <ion-col >destroy form</ion-col>
+          <ion-col >Alisa Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>SBT</ion-col>
+          <ion-col >single boot</ion-col>
+          <ion-col >Alisa Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DBT</ion-col>
+          <ion-col >dual boot</ion-col>
+          <ion-col >Alisa Bosconovitch</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>SEN</ion-col>
+          <ion-col >silent entry</ion-col>
+          <ion-col >Lars Alexandersson</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>DEN</ion-col>
+          <ion-col >dynamic entry</ion-col>
+          <ion-col >Lars Alexandersson</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>SAV</ion-col>
+          <ion-col >savage stance</ion-col>
+          <ion-col >Miguel Caballero Rojo</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>TRT</ion-col>
+          <ion-col >tarantula stance</ion-col>
+          <ion-col >Zafina</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>MNT</ion-col>
+          <ion-col >mantis stance</ion-col>
+          <ion-col >Zafina</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>SCR</ion-col>
+          <ion-col >scarecrow stance</ion-col>
+          <ion-col >Zafina</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>MTS</ion-col>
+          <ion-col >muay thai stance</ion-col>
+          <ion-col >Bruce Irvin</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>ROC</ion-col>
+          <ion-col >rocket stance</ion-col>
+          <ion-col >Alex, Roger, Roger Jr.</ion-col>
+        </ion-row>
+        <ion-row class="alternate">
+          <ion-col width-10>AKS</ion-col>
+          <ion-col >animal kick stance</ion-col>
+          <ion-col >Alex, Roger, Roger Jr.</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-10>BAL</ion-col>
+          <ion-col >spinning ball</ion-col>
+          <ion-col >Bob Richards</ion-col>
+        </ion-row>
+      </tbody>
+    </table>
+
+  </ion-list>
+</ion-content>

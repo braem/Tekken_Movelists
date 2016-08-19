@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="font-family: tarrget">{{character.fullname}}</ion-title>
+    <ion-buttons end>
+      <button (click)="presentLegend()">
+        <ion-icon name="information-circle" style="font-size: 2.5em"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngIf="arts.length">
+    <ion-list *ngFor="let art of arts; let k=index">
+      <ion-list-header style="text-align: center; font-family: tarrget; font-size: 2em" (click)="clickedArt(k)">
+        {{art.art}}
+      </ion-list-header>
+      <div [hidden]="shouldHideArt(k)">
+      <table style="table-layout: fixed; word-wrap: break-word">
+        <thead class="tableheader">
+          <ion-row *ngIf="art.header.length" >
+            <div *ngFor="let headItem of art.header; let i=index" >
+              <ion-col class="{{getColWidth(k, i)}}">
+                {{headItem}}
+              </ion-col>
+            </div>
+          </ion-row>
+        </thead>
+        <tbody *ngIf="art.moves.length">
+          <div *ngFor="let move of art.moves; let l=index">
+            <ion-row *ngIf="move.length" class="{{calcRowColor(l)}}" style="word-wrap: break-word">
+              <div *ngFor="let c of move; let j=index">
+                <ion-col class="{{getColWidth(k, j)}}" style="word-wrap: break-word">
+                  <p style="margin:0; padding:0; font-family:Verdana">{{c}}</p>
+                </ion-col>
+              </div>
+            </ion-row>
+          </div>
+        </tbody>
+        <tbody *ngIf="art.footnotes.length" class="tablefooter">
+          <ion-row *ngFor="let footnote of art.footnotes" style="margin-top:0.5em; margin-bottom:0.5em">
+            <p style="margin:0; padding:0">{{footnote}}</p>
+          </ion-row>
+        </tbody>
+      </table>
+      </div>
+
+    </ion-list>
+  </div>
+
+</ion-content>
