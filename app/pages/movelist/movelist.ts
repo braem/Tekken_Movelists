@@ -10,7 +10,7 @@ export class MovelistPage {
 
   private game: string;
   private arts: Object[];
-  private character: string;
+  public character: any;
   private displayArt: string[] = [];
 
   constructor(private navCtrl: NavController, private navParams: NavParams, menu: MenuController,

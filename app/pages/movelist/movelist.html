@@ -13,7 +13,7 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-list-header style="text-align:center">Author: {{character.author}}. © {{character.copyright}}</ion-list-header>
   <div *ngIf="arts.length">
     <ion-list *ngFor="let art of arts; let k=index">
       <ion-list-header style="text-align: center; font-family: tarrget; font-size: 2em" (click)="clickedArt(k)">
