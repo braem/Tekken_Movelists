@@ -8,7 +8,7 @@ import {ContactPage} from './pages/contact/contact';
 @Component({
   templateUrl: 'build/app.html'
 })
-export class MyApp {
+export class TekkenMovelists {
 
   @ViewChild(Nav) nav:Nav;
   browsePages:Array<{title:string, component:any}>;
@@ -30,7 +30,7 @@ export class MyApp {
     /*
     window.addEventListener("orientationchange", function(){
       console.log(ScreenOrientation.orientation["type"]); // e.g. portrait
-      MyApp.screenorientation = ScreenOrientation.orientation["type"];
+      TekkenMovelists.screenorientation = ScreenOrientation.orientation["type"];
     });
     */
   }
@@ -39,13 +39,12 @@ export class MyApp {
     // close the menu when clicking a link from the menu
     this.menu.close();
     // navigate to the new page if it is not the current page
-    if(page.title === 'Game Select') { //no back button
+    if(page.title === 'Game Select') //no back button
       this.nav.setRoot(page.component);
-    }
-    else {  //back button
+    else  //back button
       this.nav.push(page.component);
-    }
   }
+
 }
 
-ionicBootstrap(MyApp);
+ionicBootstrap(TekkenMovelists);

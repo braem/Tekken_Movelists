@@ -15,12 +15,17 @@ export class MovelistPage {
 
   constructor(private navCtrl: NavController, private navParams: NavParams, menu: MenuController,
               private modalCtrl: ModalController, private loadingCtrl: LoadingController) {
-    menu.enable(true);
 
-    var dur = navParams.get('duration');
-    dur = 0;
+    menu.enable(true);
     this.game = navParams.get('game');
     this.arts = navParams.get('character')["arts"];
+    this.spaceToNBSP();
+    this.character = navParams.get('character');
+    for(var i=0; i<this.arts.length; i++) //hide all arts on page load
+      this.displayArt.push('hide');
+  }
+
+  spaceToNBSP() {
     //change spaces to &nbsp; in order for html to display follow up moves properly
     for(var i=0; i<this.arts.length; i++) {
       var art = this.arts[i];
@@ -31,11 +36,6 @@ export class MovelistPage {
         }
       }
     }
-    this.character = navParams.get('character');
-    for(var i=0; i<this.arts.length; i++) {
-      this.displayArt.push('hide');
-    }
-    console.log(this.character);
   }
 
   presentLoading(duration: number) {
@@ -52,29 +52,19 @@ export class MovelistPage {
   }
 
   clickedArt(index: number) {
-    if(this.displayArt[index] === 'show') {
-      this.displayArt[index] = 'hide';
-    }
-    else {
-      this.displayArt[index] = 'show';
-    }
+    if(this.displayArt[index] === 'show') this.displayArt[index] = 'hide';
+    else                                  this.displayArt[index] = 'show';
   }
 
-  shouldHideArt(index: number) {
-    return this.displayArt[index] === 'hide';
-  }
+  shouldHideArt(index: number) { return this.displayArt[index] === 'hide'; }
 
   calcRowColor(num: number) {
-    if(num%2 == 1) {
-      return 'alternate';
-    }
-    else {
-      return 'normal';
-    }
+    if(num%2 == 1)  return 'alternate';
+    else            return 'normal';
   }
 
   getColWidth(num: number, i: number) : string {
-    if(num === this.arts.length-1) {
+    if(num === this.arts.length-1)
       switch(i) {
         case 0: return 'dOne';
         case 1: return 'dTwo';
@@ -82,8 +72,7 @@ export class MovelistPage {
         case 3: return 'dFour';
         default: return '';
       }
-    }
-    else {
+    else
       switch(i) {
         case 0: return 'nOne';
         case 1: return 'nTwo';
@@ -93,8 +82,8 @@ export class MovelistPage {
         case 5: return 'nSix';
         default: return '';
       }
-    }
   }
+
 }
 
 

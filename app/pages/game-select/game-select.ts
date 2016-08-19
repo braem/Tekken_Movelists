@@ -16,7 +16,6 @@ export class GameSelectPage {
   }
 
   advance(game: string) {
-    console.log(game);
     this.nav.push(CharSelectPage, {
       game: game
     });

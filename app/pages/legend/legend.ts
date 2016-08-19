@@ -21,20 +21,11 @@ export class LegendPage {
   }
 
   clickedTable(i: number) {
-    if(this.displayTable[i] === 'show') {
-      this.displayTable[i] = 'hide';
-    }
-    else {
-      this.displayTable[i] = 'show';
-    }
+    if(this.displayTable[i] === 'show') this.displayTable[i] = 'hide';
+    else                                this.displayTable[i] = 'show';
   }
 
-  shouldHideTable(i: number) {
-    if(this.displayTable[i] === 'hide') return true;
-    else return false;
-  }
+  shouldHideTable(i: number) { return this.displayTable[i] === 'hide'; }
 
-  dismiss() {
-    this.viewCtrl.dismiss();
-  }
+  dismiss() { this.viewCtrl.dismiss(); }
 }

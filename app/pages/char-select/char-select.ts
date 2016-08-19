@@ -17,19 +17,18 @@ export class CharSelectPage {
   constructor(public navCtrl: NavController, private navParams: NavParams,
               private loadingCtrl: LoadingController, public menu: MenuController) {
     this.menu.enable(true);
-    //selected game
     this.game = navParams.get('game');
+    this.acquireJSONdata();
+    this.initializeItems();
+  }
 
-    //acquire JSON data (tekken game's movelists)
+  acquireJSONdata() {
     var request = new XMLHttpRequest();
     var jsonInfo = [];
     request.open("GET", "assets/JSONs/"+this.game+".JSON", false);
     request.send(null);
     jsonInfo.push(JSON.parse(request.responseText));
-    console.log(jsonInfo);
     this.jsonInfo = jsonInfo;
-
-    this.initializeItems();
   }
 
   presentLoading(character: string, duration: number) {
@@ -41,32 +40,24 @@ export class CharSelectPage {
   }
 
   toggleSearchBar() {
-    if(this.showSearchBar === 'show') {
-      this.showSearchBar = 'hide';
-    }
-    else {
-      this.showSearchBar = 'show';
-    }
+    if(this.showSearchBar === 'show')   this.showSearchBar = 'hide';
+    else                                this.showSearchBar = 'show';
   }
 
   hideSearchBar() {
-    if(this.showSearchBar === 'hide') return true;
-    else return false;
+    return this.showSearchBar === 'hide';
   }
 
   hideSeg(a: string,b: string) {
     if(a === 'All') return false;
-    if(a === b)
-      return false;
-    else return true;
+    return a != b;
   }
 
   initializeItems() {
     //extract characters
     var characters = [];
-    for(var i=0; i<this.jsonInfo[0]["movelists"].length; i++) {
+    for(var i=0; i<this.jsonInfo[0]["movelists"].length; i++)
       characters.push(this.jsonInfo[0]["movelists"][i]);
-    }
     this.characters = characters;
   }
 
@@ -86,14 +77,10 @@ export class CharSelectPage {
   }
 
   advance(character: Object) {
-    console.log(this.game + character);
     this.navCtrl.push(MovelistPage, {
       game: this.game,
       character: character
     });
   }
 
-  openMenu() {
-
-  }
 }
