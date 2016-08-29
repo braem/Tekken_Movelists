@@ -1,36 +1,33 @@
 <ion-header>
   <ion-navbar>
-    <button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title style="font-family: tarrget">{{game}} Character Select</ion-title>
-    <ion-buttons primary end>
+    <ion-title style="font-family: tarrget; text-align: center">{{game}}</ion-title>
+    <ion-title style="font-family: tarrget; text-align: center">Character Select</ion-title>
+    <ion-buttons end>
       <button round (click)="toggleSearchBar()">
         <ion-icon name="search" style="font-size: 2.5em"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
-  <ion-toolbar>
-    <ion-segment [(ngModel)]="gender" >
-      <ion-segment-button value="Male">
-        Male
-      </ion-segment-button>
-      <ion-segment-button value="Female">
-        Female
-      </ion-segment-button>
-      <ion-segment-button dark value="Non-Human">
-        Non-Human
-      </ion-segment-button>
-      <ion-segment-button value="All">
-        All
-      </ion-segment-button>
-    </ion-segment>
-  </ion-toolbar>
+  <ion-segment [(ngModel)]="gender" red style="background-color: #f8f8f8">
+    <ion-segment-button value="Male" style="color: #387ef5">
+      <ion-icon name="Male"></ion-icon>
+      Male
+    </ion-segment-button>
+    <ion-segment-button value="Female" style="color: #f53d3d">
+      <ion-icon name="Female"></ion-icon>
+      Female
+    </ion-segment-button>
+    <ion-segment-button value="Non-Human" style="color: #222">
+      Non-Human
+    </ion-segment-button>
+    <ion-segment-button value="All" style="color: #9e6fd4">
+      All
+    </ion-segment-button>
+  </ion-segment>
 </ion-header>
 
 <ion-content>
   <ion-searchbar (ionInput)="getItems($event)" [hidden]="hideSearchBar()"></ion-searchbar>
-
   <div [ngSwitch]="gender">
     <ion-grid >
       <ion-row wrap *ngIf="characters.length">
@@ -45,5 +42,4 @@
       </ion-row>
     </ion-grid>
   </div>
-
 </ion-content>
