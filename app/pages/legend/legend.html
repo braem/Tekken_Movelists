@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title style="font-family: tarrget">Legend</ion-title>
+    <ion-title vertical-align-top="center" style="font-family: tarrget">Legend</ion-title>
     <ion-buttons end>
       <button (click)="dismiss()">
         <span primary showWhen="ios">Cancel</span>
@@ -11,8 +11,6 @@
 </ion-header>
 
 <ion-content>
-
-  <ion-list-header style="text-align:center">Author: Castel. © 1999-2016 Tekken Zaibatsu</ion-list-header>
   <ion-list>
     <ion-list-header class="tabletitle" (click)="clickedTable(0)">Commands</ion-list-header>
     <table class="table" [hidden]="shouldHideTable(0)">
@@ -783,6 +781,9 @@
         </ion-row>
       </tbody>
     </table>
-
   </ion-list>
 </ion-content>
+
+<ion-footer>
+  <ion-list-header style="text-align:center">Author: Castel. © 1999-2016 Tekken Zaibatsu</ion-list-header>
+</ion-footer>
