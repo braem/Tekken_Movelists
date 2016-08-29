@@ -31,10 +31,10 @@
   <div [ngSwitch]="gender">
     <ion-grid >
       <ion-row wrap *ngIf="characters.length">
-        <ion-col width-25 *ngFor="let character of characters" (click)="advance(character)" [hidden]="hideSeg(gender,character.sex)">
+        <ion-col width-20 *ngFor="let character of characters" (click)="advance(character)" [hidden]="hideSeg(gender,character.sex)">
           <ion-card style="padding: 0; text-align:center; margin: 0; width:100%" >
-            <img src="assets/char_imgs/{{character.id}}.png" />
-            <div style="font-family: tarrget; font-size:7px; font-size: 2.5vw; word-wrap: break-word">
+            <img src="assets/imgs/{{game}}/{{character.id}}.png" />
+            <div style="font-family: tarrget; font-size:7px; font-size: 2vw; word-wrap: break-word">
               {{character.name}}
             </div>
           </ion-card>
