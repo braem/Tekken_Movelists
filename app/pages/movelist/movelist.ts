@@ -32,7 +32,10 @@ export class MovelistPage {
       for(var j=0; j<art["moves"].length; j++) {
         var move = art["moves"][j];
         for(var k=0; k<move.length; k++) {
-          move[k] = move[k].split(' ').join('\u00a0'); //replace
+          for(var l=0; l<move[k].length; l++) {
+            if(move[k].charAt(l) !== ' ') break;
+            move[k] = move[k].substr(0, l) + '\u00a0' + move[k].substr(l+1);
+          }
         }
       }
     }
